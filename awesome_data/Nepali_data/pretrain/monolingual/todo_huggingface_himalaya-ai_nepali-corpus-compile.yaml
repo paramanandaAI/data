@@ -1,0 +1,31 @@
+id: todo_huggingface_himalaya-ai_nepali-corpus-compile
+name: himalaya-ai/nepali-corpus-compile
+source_url: https://huggingface.co/datasets/himalaya-ai/nepali-corpus-compile
+task: pretrain/monolingual
+quality_tier: gold
+license: cc-by-4.0
+language: ne
+split: train
+target_rows: 100000
+column_mapping:
+  text: text
+output: dataset/transformed/pretrain/himalaya_corpus_compile_100k.jsonl
+export_templates:
+  bert:
+    format: language_model_text
+    text: '{text}'
+  t5:
+    task_prefix: 'denoise: '
+    source_text: '{text}'
+    target_text: '{text}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 100000
+  total_size_mb: null
+  download_rows_default: 100000
+languages:
+  ne: 100000

@@ -10,5 +10,5 @@
 
 ## 📁 Active Contracts
 
-- [`todo_huggingface_mteb_NepaliNewsClassification.yaml`](file:///d:/linguistic_adaptation/sources/eval/todo_huggingface_mteb_NepaliNewsClassification.yaml): MTEB benchmark test set for Nepali text categorization.
-- [`todo_huggingface_biraj-bhusal_rakshak-nepali-toxicity.yaml`](file:///d:/linguistic_adaptation/sources/eval/todo_huggingface_biraj-bhusal_rakshak-nepali-toxicity.yaml): Held-out safety evaluation for hate speech and toxicity detection.
+- [`todo_huggingface_mteb_NepaliNewsClassification.yaml`](../eval/todo_huggingface_mteb_NepaliNewsClassification.yaml): MTEB benchmark test set for Nepali text categorization.
+- [`todo_huggingface_biraj-bhusal_rakshak-nepali-toxicity.yaml`](../eval/todo_huggingface_biraj-bhusal_rakshak-nepali-toxicity.yaml): Held-out safety evaluation for hate speech and toxicity detection.

@@ -1,0 +1,28 @@
+id: todo_github_shekharkoirala_nepali_wikipedia
+name: shekharkoirala/nepali_wikipedia_curpos
+source_url: https://github.com/shekharkoirala/nepali_wikipedia_curpos
+task: pretrain/monolingual
+quality_tier: gold
+license: cc-by-sa-4.0
+language: ne
+split: train
+target_rows: 50000
+column_mapping:
+  title: article_title
+  content: text
+output: dataset/transformed/pretrain/nepali_wikipedia_dump_50k.jsonl
+export_templates:
+  bert:
+    format: language_model_text
+    text: '{text}'
+validation:
+  min_devanagari_ratio: 0.8
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 50000
+  total_size_mb: null
+  download_rows_default: 50000
+languages:
+  ne: 50000

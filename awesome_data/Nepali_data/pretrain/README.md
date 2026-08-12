@@ -10,6 +10,6 @@
 
 ## 📁 Active Contracts
 
-- [`monolingual/todo_huggingface_Sakonii_nepalitext-language-model-dataset.yaml`](file:///d:/linguistic_adaptation/sources/pretrain/monolingual/todo_huggingface_Sakonii_nepalitext-language-model-dataset.yaml): 13.4M text passages.
-- [`monolingual/todo_huggingface_himalaya-ai_nepali-corpus-compile.yaml`](file:///d:/linguistic_adaptation/sources/pretrain/monolingual/todo_huggingface_himalaya-ai_nepali-corpus-compile.yaml): 31.3M deduplicated news and book sentences.
-- [`monolingual/todo_huggingface_Basanta55_cc100-nepali-strictly-cleaned.yaml`](file:///d:/linguistic_adaptation/sources/pretrain/monolingual/todo_huggingface_Basanta55_cc100-nepali-strictly-cleaned.yaml): 1.29M filtered Devanagari-only CC-100 sentences.
+- [`monolingual/todo_huggingface_Sakonii_nepalitext-language-model-dataset.yaml`](../pretrain/monolingual/todo_huggingface_Sakonii_nepalitext-language-model-dataset.yaml): 13.4M text passages.
+- [`monolingual/todo_huggingface_himalaya-ai_nepali-corpus-compile.yaml`](../pretrain/monolingual/todo_huggingface_himalaya-ai_nepali-corpus-compile.yaml): 31.3M deduplicated news and book sentences.
+- [`monolingual/todo_huggingface_Basanta55_cc100-nepali-strictly-cleaned.yaml`](../pretrain/monolingual/todo_huggingface_Basanta55_cc100-nepali-strictly-cleaned.yaml): 1.29M filtered Devanagari-only CC-100 sentences.

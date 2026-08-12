@@ -37,8 +37,8 @@ sources/
 
 ## ⚡ Ecosystem Tooling & Modern NLP Architecture
 For complete mapping between classic NLP components (spaCy, SetFit, SpanMarker, KeyBERT, Presidio) and Hugging Face pipelines for Nepali, consult:
-- [**Modern NLP & Hugging Face Ecosystem Guide**](file:///d:/linguistic_adaptation/.agents/skills/nepali_linguistic_toolkit/references/guides/modern_nlp_spacy_hf_ecosystem.md)
-- [**Master Academic Bibliography**](file:///d:/linguistic_adaptation/sources/NOTES.md)
+- [**Modern NLP & Hugging Face Ecosystem Guide**](../../nlp_notes/frameworks/ecosystem.md)
+- [**Master Academic Bibliography**](../NOTES.md)
 
 ### Data Operations Frameworks
 

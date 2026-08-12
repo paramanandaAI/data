@@ -1,0 +1,31 @@
+id: todo_huggingface_jangedoo_nepali-query-passage-hard-negatives-10k
+name: jangedoo/nepali-query-passage-hard-negatives-10k
+source_url: https://huggingface.co/datasets/jangedoo/nepali-query-passage-hard-negatives-10k
+task: similarity/reranking
+quality_tier: gold
+license: open
+language: ne
+split: train
+target_rows: 10000
+column_mapping:
+  query: query
+  positive: positive_passage
+  negative: negative_passage
+output: dataset/transformed/similarity/reranking/nepali_dpr_triplets_10k.jsonl
+export_templates:
+  bert:
+    format: dpr_triplet
+    query: '{query}'
+    pos: '{positive_passage}'
+    neg: '{negative_passage}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 10000
+  total_size_mb: null
+  download_rows_default: 10000
+languages:
+  ne: 10000

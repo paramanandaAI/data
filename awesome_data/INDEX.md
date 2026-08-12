@@ -1,4 +1,4 @@
-﻿# Master Index & Inventory — `awesome_data/`
+# Master Index & Inventory — `awesome_data/`
 
 > Complete inventory of every file originally in `sources/` with its classification and target location in the new organization.
 > All 41 md files have been **migrated to the new trees** (content preserved in `Nepali_data/`, `Nepali_research/`, `nlp_notes/`) and the originals deleted.
@@ -98,9 +98,9 @@ Split rules applied to every `NOTES.md`:
 
 ---
 
-## 3. YAML Dataset Contracts (55) — flattened into `yaml/`
+## 3. YAML Dataset Contracts (55) — organized in `Nepali_data/<category>/`
 
-> These are the actual dataset specs. They now live **flat** in `yaml/` (renamed from `sources/`, structure removed). The tables below keep the ORIGINAL category path (from `sources/`) for provenance — when the contracts are verified and sorted into `Nepali_data/<category>/`, restore that path. All 55 listed below so none is lost.
+> All 55 dataset YAML contract files are organized in their respective subcategory folders inside `Nepali_data/<category>/` and enhanced with `status` flags (`verified` vs `todo`), `modality`, language row breakdowns, `size_stats` (`max_rows`, `total_size_mb`, `download_rows_default`), and model export templates.
 
 ### 3.1 Pretrain (5)
 | File | Dataset | Task |

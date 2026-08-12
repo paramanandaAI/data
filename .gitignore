@@ -1,5 +1,32 @@
-# Ignored large files (> 10 MB)
-/library_test/ocr/example.pdf
+# Paramananda Data Repository .gitignore
+# Ignore large dataset files (> 25 MB) and raw training dumps
+
+# Large Data Extensions
+*.tsv
+*.bin
+*.parquet
+*.h5
+*.zip
+*.tar.gz
+*.7z
+
+# Training & Large Data Directories
+/dataloader/train/
+/hindi_nepali_test/src/
+/hindi_nepali_test/tgt/
+
+# Explicit Large Dataset Files (> 25 MB)
 /library_test/translit/nepali_roman_word.csv
+/library_test/ocr/example.pdf
 /synthetic_raw/learnings_from_semster/hindi-nepali-translation/iforgotsource.csv
 /synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/output.json
+
+# Explicit Large Dataset Files (> 50 MB)
+dataloader/train/synthetic/balkbal/corpus_analysis/unigram_frequency.csv
+dataloader/train/synthetic/balkbal/corpus_analysis/user_annotation_v1.json
+dataloader/train/word_agriculture_web/train.tsv
+dataloader/train/word_agriculture_web/train_short_10000.csv
+
+# Keep sample dataset CSVs (< 5 MB)
+!/library_test/translit/nepali_roman_word_sample.csv
+!/synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/*.csv

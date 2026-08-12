@@ -1,0 +1,30 @@
+id: acm_Rai_Nepali_Universal_Dependencies
+name: UniversalDependencies/UD_Nepali
+source_url: https://github.com/UniversalDependencies/UD_Nepali
+task: sft/nlp_tasks/dependency_parsing
+quality_tier: gold
+license: cc-by-sa-4.0
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  tokens: tokens
+  heads: head_indices
+  deprel: dependency_relations
+output: dataset/transformed/sft/nlp_tasks/nepali_universal_dependencies.jsonl
+export_templates:
+  bert:
+    format: token_classification
+    tokens: '{tokens}'
+    tags: '{dependency_relations}'
+validation:
+  min_devanagari_ratio: 0.75
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 5000
+  total_size_mb: null
+  download_rows_default: 5000
+languages:
+  ne: 5000
