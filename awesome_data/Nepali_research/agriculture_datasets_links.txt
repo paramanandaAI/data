@@ -1,0 +1,3 @@
+https://huggingface.co/datasets/w4ashabii/nepali_crop_data
+https://www.kaggle.com/datasets/qramkrishna/corn-leaf-infection-dataset?select=Annotation-export.csv
+https://huggingface.co/collections/IRIIS-RESEARCH/local-herbs-dataset

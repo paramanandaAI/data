@@ -1,0 +1,36 @@
+id: eval_xnli
+name: hf/xnli-nepali
+task: eval/nli
+status: verified
+quality_tier: gold
+modality: text
+license: open
+language: ne
+script: Devanagari
+
+size_stats:
+  max_rows: 63966
+  total_size_mb: 11.51
+  download_rows_default: 63966
+
+languages:
+  ne: 63966
+
+column_mapping:
+  premise: input_a
+  hypothesis: input_b
+  label: output
+
+output: data/awesome_data/Nepali_data/eval/hf_benchmarks/XNLI-Nepali/data/train-00000-of-00001.parquet
+
+export_templates:
+  t5:
+    task_prefix: "evaluate NLI premise hypothesis: "
+    source_text: "premise: {premise} | hypothesis: {hypothesis}"
+    target_text: "{label}"
+  gemma4:
+    messages:
+      - role: user
+        content: "तथ्य (premise): {premise}\nदाबी (hypothesis): {hypothesis}\nयी दुई वाक्यबीचको सम्बन्ध (सत्य/विरोधाभास/तटस्थ) के हो?"
+      - role: assistant
+        content: "{label}"

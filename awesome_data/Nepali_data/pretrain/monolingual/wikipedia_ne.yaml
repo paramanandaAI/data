@@ -1,0 +1,25 @@
+id: wikimedia_wikipedia_nepali
+name: wikimedia/wikipedia (20231101.ne) Title Generation
+source_url: https://huggingface.co/datasets/wikimedia/wikipedia
+subset: 20231101.ne
+task: sft/title_generation
+quality_tier: gold
+license: cc-by-sa-4.0
+language: ne
+script: Devanagari
+split: train
+target_rows: 500
+column_mapping:
+  id: article_id
+  url: article_url
+  title: article_title
+  text: article_text
+output: lemmatization/sentence_data/wikipedia/train.jsonl
+export_templates:
+  t5:
+    task_prefix: 'generate title for text: '
+    source_text: '{text}'
+    target_text: '{title}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true

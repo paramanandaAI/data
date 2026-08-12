@@ -11,6 +11,9 @@ An open-source, agent-friendly dataset hub and benchmark specification repositor
 ```tree
 data/
 ├── awesome_data/                        # CENTRAL CATALOG, RESEARCH & GUIDES
+│   ├── DATA_SCHEMA.md                   # Canonical JSONL record schema specifications
+│   ├── PIPELINE.md                      # Data ingestion workflow & status lifecycle guide
+│   ├── DOMAIN_ADAPTATION_GUIDE.md       # Paramananda domain adaptation framework specification
 │   ├── Nepali_data/                     # Categorized Dataset YAML Contracts & Index
 │   │   ├── catalog.jsonl                # Consolidated JSONL dataset catalog index
 │   │   ├── dataset_catalog.md           # Dataset metadata inventory
@@ -19,7 +22,7 @@ data/
 │   │   ├── similarity/                  # NLI, STS, and passage reranking YAMLs
 │   │   ├── multimodal/                  # ASR, OCR, TTS, Vision, Sign Language YAMLs
 │   │   └── eval/                        # Safety, toxicity, and classification evaluation YAMLs
-│   ├── Nepali_research/                 # Academic literature surveys & paper bibliographies (`literature.md`)
+│   ├── Nepali_research/                 # Academic literature surveys & paper bibliographies (`balkbal_publications.md`, `hf_datasets_catalog.md`)
 │   ├── nlp_notes/                       # Task guides, framework tables, and evaluation metrics (`guide.md`)
 │   └── INDEX.md                         # Master Inventory & Mapping Specification
 │

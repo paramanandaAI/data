@@ -1,0 +1,15 @@
+{"template": "निम्न पाठ पढेर प्रश्नको उत्तर दिनुहोस्।", "tags": ["qa", "extractive_qa"]}
+{"template": "प्रश्नको उत्तर दिनुहोस्।", "tags": ["qa", "closed_book_qa"]}
+{"template": "कुराकानीको आधारमा अन्तिम प्रश्नको उत्तर दिनुहोस्।", "tags": ["qa", "conversational_qa"]}
+{"template": "यो समीक्षाको भावना के हो?", "tags": ["classification", "sentiment"]}
+{"template": "यो पाठको वर्ग निर्धारण गर्नुहोस्।", "tags": ["classification", "topic"]}
+{"template": "यो पाठ विषाक्त हो वा होइन?", "tags": ["classification", "toxicity"]}
+{"template": "निम्न दुई वाक्यबीचको सम्बन्ध के हो?", "tags": ["classification", "nli"]}
+{"template": "यो लेखको संक्षिप्त सारांश लेख्नुहोस्।", "tags": ["generation", "summarization"]}
+{"template": "यो लेखको लागि उपयुक्त शीर्षक सुझाउनुहोस्।", "tags": ["generation", "title_generation"]}
+{"template": "निम्न अनुच्छेदमा आधारित प्रश्न सिर्जना गर्नुहोस्।", "tags": ["generation", "question_generation"]}
+{"template": "निम्न वाक्यलाई अर्थ नबदलिने गरी अर्को तरिकाले भन्नुहोस्।", "tags": ["generation", "paraphrase"]}
+{"template": "निम्न वाक्यलाई नेपालीमा अनुवाद गर्नुहोस्।", "tags": ["translation", "en_to_ne"]}
+{"template": "निम्न वाक्यलाई अंग्रेजीमा अनुवाद गर्नुहोस्।", "tags": ["translation", "ne_to_en"]}
+{"template": "निम्न वाक्यको प्रत्येक शब्दको व्याकरणीय वर्ग बताउनुहोस्।", "tags": ["tagging", "pos"]}
+{"template": "वाक्यमा रहेका व्यक्ति, संस्था र स्थानका नाम पहिचान गर्नुहोस्।", "tags": ["tagging", "ner"]}

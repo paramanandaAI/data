@@ -1,0 +1,60 @@
+# Courses Tutorials
+
+> Total Repositories: 56
+
+- **[abhimishra91/transformers-tutorials](https://github.com/abhimishra91/transformers-tutorials)** — Github repo with tutorials to fine tune transformers for diff NLP tasks
+- **[amanjeetsahu/Natural-Language-Processing-Specialization](https://github.com/amanjeetsahu/Natural-Language-Processing-Specialization)** — This repo contains my coursework, assignments, and Slides for Natural Language Processing Specialization by deeplearning.ai on Coursera
+- **[amitness/learning](https://github.com/amitness/learning)** — A log of things I'm learning
+- **[AmoDinho/datacamp-python-data-science-track](https://github.com/AmoDinho/datacamp-python-data-science-track)** — All the slides, accompanying code and exercises all stored in this repo. 🎈
+- **[apachecn/ailearning](https://github.com/apachecn/ailearning)** — AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
+- **[apachecn/nlp-pytorch-zh](https://github.com/apachecn/nlp-pytorch-zh)** — 《Natural Language Processing with PyTorch》中文翻译
+- **[ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)** — 500 AI Machine learning Deep learning Computer vision NLP Projects with code
+- **[BDBC-KG-NLP/QA-Survey-CN](https://github.com/BDBC-KG-NLP/QA-Survey-CN)** — 北京航空航天大学大数据高精尖中心自然语言处理研究团队开展了智能问答的研究与应用总结。包括基于知识图谱的问答（KBQA），基于文本的问答系统（TextQA），基于表格的问答系统（TableQA）、基于视觉的问答系统（VisualQA）和机器阅读理解（MRC）等，每类任务分别对学术界和工业界进行了相关总结。
+- **[ben1234560/AiLearning-Theory-Applying](https://github.com/ben1234560/AiLearning-Theory-Applying)** — 快速上手AI理论及应用实战：基础知识、Transformer、NLP、ML、DL、竞赛。含大量注释及数据集，力求每一位能看懂并复现。
+- **[bentrevett/pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)** — Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
+- **[bishwaghimire/ai-learning-roadmaps](https://github.com/bishwaghimire/ai-learning-roadmaps)** — A complete, structured hub for learning Artificial Intelligence — covering AI, Machine Learning, Deep Learning, and Data Science with books, roadmaps, and curated resources from beginner to advanced.
+- **[chiphuyen/stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials)** — This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.
+- **[curiousily/Getting-Things-Done-with-Pytorch](https://github.com/curiousily/Getting-Things-Done-with-Pytorch)** — Jupyter Notebook tutorials on solving real-world problems with Machine Learning & Deep Learning using PyTorch. Topics: Face detection with Detectron 2, Time Series anomaly detection with LSTM Autoencoders, Object Detection with YOLO v5, Build your first Neural Network, Time Series forecasting for Coronavirus daily cases, Sentiment Analysis with BER
+- **[dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)** — 📺 Discover the latest machine learning / AI courses on YouTube.
+- **[dair-ai/nlp_paper_summaries](https://github.com/dair-ai/nlp_paper_summaries)** — ✍️ A carefully curated list of NLP paper summaries
+- **[datawhalechina/base-llm](https://github.com/datawhalechina/base-llm)** — 从 NLP 到 LLM 的算法全栈教程，在线阅读地址：https://datawhalechina.github.io/base-llm/
+- **[datawhalechina/daily-interview](https://github.com/datawhalechina/daily-interview)** — Datawhale成员整理的面经，内容包括机器学习，CV，NLP，推荐，开发等，欢迎大家star
+- **[datawhalechina/learn-nlp-with-transformers](https://github.com/datawhalechina/learn-nlp-with-transformers)** — we want to create a repo to illustrate usage of transformers in chinese
+- **[delip/PyTorchNLPBook](https://github.com/delip/PyTorchNLPBook)** — Code and data accompanying Natural Language Processing with PyTorch published by O'Reilly Media https://amzn.to/3JUgR2L
+- **[dragen1860/TensorFlow-2.x-Tutorials](https://github.com/dragen1860/TensorFlow-2.x-Tutorials)** — TensorFlow 2.x version's Tutorials and Examples, including CNN, RNN, GAN, Auto-Encoders, FasterRCNN, GPT, BERT examples, etc. TF 2.0版入门实例代码，实战教程。
+- **[eugeneyan/ml-surveys](https://github.com/eugeneyan/ml-surveys)** — 📋 Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.
+- **[explosion/spacy-course](https://github.com/explosion/spacy-course)** — 👩‍🏫 Advanced NLP with spaCy: A free online course
+- **[facebookarchive/duckling_old](https://github.com/facebookarchive/duckling_old)** — Deprecated in favor of https://github.com/facebook/duckling
+- **[facebookresearch/large_concept_model](https://github.com/facebookresearch/large_concept_model)** — Large Concept Models: Language modeling in a sentence representation space
+- **[fancyboi999/ai-engineering-from-scratch-zh](https://github.com/fancyboi999/ai-engineering-from-scratch-zh)** — Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南
+- **[fastai/course-nlp](https://github.com/fastai/course-nlp)** — A Code-First Introduction to NLP course
+- **[foochane/books](https://github.com/foochane/books)** — 整理一些书籍 ,包含 C&C++ 、git 、Java、Keras 、Linux 、NLP 、Python 、Scala 、TensorFlow 、大数据 、推荐系统、数据库、数据挖掘 、机器学习 、深度学习 、算法等。
+- **[graykode/nlp-roadmap](https://github.com/graykode/nlp-roadmap)** — ROADMAP(Mind Map) and KEYWORD for students those who have interest in learning NLP
+- **[graykode/nlp-tutorial](https://github.com/graykode/nlp-tutorial)** — Natural Language Processing Tutorial for Deep Learning Researchers
+- **[HKUSTDial/NL2SQL_Handbook](https://github.com/HKUSTDial/NL2SQL_Handbook)** — This is a continuously updated handbook for readers to easily track the latest Text-to-SQL techniques in the literature and provide practical guidance for researchers and practitioners.
+- **[huggingface/course](https://github.com/huggingface/course)** — The Hugging Face course on Transformers
+- **[huggingface/naacl_transfer_learning_tutorial](https://github.com/huggingface/naacl_transfer_learning_tutorial)** — Repository of code for the tutorial on Transfer Learning in NLP held at NAACL 2019 in Minneapolis, MN, USA
+- **[huggingface/transfer-learning-conv-ai](https://github.com/huggingface/transfer-learning-conv-ai)** — 🦄 State-of-the-Art Conversational AI with Transfer Learning
+- **[IAAR-Shanghai/SurveyX](https://github.com/IAAR-Shanghai/SurveyX)** — Academic Survey Paper Generation.
+- **[LLMBook-zh/LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io)** — 《大语言模型》作者：赵鑫，李军毅，周昆，唐天一，文继荣
+- **[lyeoni/nlp-tutorial](https://github.com/lyeoni/nlp-tutorial)** — A list of NLP(Natural Language Processing) tutorials
+- **[microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)** — 12 Weeks, 24 Lessons, AI for All!
+- **[microsoft/nlp-recipes](https://github.com/microsoft/nlp-recipes)** — Natural Language Processing Best Practices & Examples
+- **[Mooler0410/LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide)** — A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
+- **[MorvanZhou/NLP-Tutorials](https://github.com/MorvanZhou/NLP-Tutorials)** — Simple implementations of NLP models. Tutorials are written in Chinese on my website https://mofanpy.com
+- **[nfmcclure/tensorflow_cookbook](https://github.com/nfmcclure/tensorflow_cookbook)** — Code for Tensorflow Machine Learning Cookbook
+- **[NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)** — This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
+- **[nlptown/nlp-notebooks](https://github.com/nlptown/nlp-notebooks)** — A collection of notebooks for Natural Language Processing from NLP Town
+- **[NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)** — State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure.
+- **[oxford-cs-deepnlp-2017/lectures](https://github.com/oxford-cs-deepnlp-2017/lectures)** — Oxford Deep NLP 2017 course
+- **[R6410418/Jackrong-llm-finetuning-guide](https://github.com/R6410418/Jackrong-llm-finetuning-guide)**
+- **[rguthrie3/DeepLearningForNLPInPytorch](https://github.com/rguthrie3/DeepLearningForNLPInPytorch)** — An IPython Notebook tutorial on deep learning for natural language processing, including structure prediction.
+- **[roatienza/Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments)** — Videos, notes and experiments to understand deep learning
+- **[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** — Learn it. Build it. Ship it for others.
+- **[SkalskiP/courses](https://github.com/SkalskiP/courses)** — This repository is a curated collection of links to various courses and resources about Artificial Intelligence (AI)
+- **[soskek/bookcorpus](https://github.com/soskek/bookcorpus)** — Crawl BookCorpus
+- **[spro/practical-pytorch](https://github.com/spro/practical-pytorch)** — Go to https://github.com/pytorch/tutorials - this repo is deprecated and no longer maintained
+- **[towardsai/tutorials](https://github.com/towardsai/tutorials)** — AI-related tutorials. Access any of them for free → https://towardsai.net/editorial
+- **[TrickyGo/Dive-into-DL-TensorFlow2.0](https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0)** — 本项目将《动手学深度学习》(Dive into Deep Learning)原书中的MXNet实现改为TensorFlow 2.0实现，项目已得到李沐老师的认可
+- **[wagamamaz/tensorflow-tutorial](https://github.com/wagamamaz/tensorflow-tutorial)** — TensorFlow and Deep Learning Tutorials
+- **[zkywsg/Daily-LLM](https://github.com/zkywsg/Daily-LLM)** — 🔥机器学习/深度学习/Python/大模型/多模态/LLM/deeplearning/Python/Algorithm interview/NLP Tutorial

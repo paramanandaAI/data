@@ -6,37 +6,32 @@ quality_tier: gold
 license: open
 language: ne
 script: Devanagari
+
 split: train
-target_rows: 5000
+target_rows: 500
+
 column_mapping:
   sentence: input
   has_error: label
-output: dataset/transformed/sft/gec/sumitaryal_error_detection_5k.jsonl
+
+output: lemmatization/sentence_data/gec/sumitaryal_error_detection_5k.jsonl
+
 export_templates:
   bert:
     format: single_sentence_classification
-    text_a: '{input}'
-    label: '{label}'
+    text_a: "{input}"
+    label: "{label}"
   t5:
-    task_prefix: 'detect grammatical error: '
-    source_text: '{input}'
-    target_text: '{label}'
+    task_prefix: "detect grammatical error: "
+    source_text: "{input}"
+    target_text: "{label}"
   gemma4:
     messages:
-    - role: user
-      content: 'के यो नेपाली वाक्य व्याकरणिक रूपमा सही छ?
+      - role: "user"
+        content: "के यो नेपाली वाक्य व्याकरणिक रूपमा सही छ?\n{input}"
+      - role: "model"
+        content: "व्याकरण स्थिति: {label}"
 
-        {input}'
-    - role: model
-      content: 'व्याकरण स्थिति: {label}'
 validation:
-  min_devanagari_ratio: 0.7
+  min_devanagari_ratio: 0.70
   drop_duplicates: true
-status: verified
-modality: text
-size_stats:
-  max_rows: 5000
-  total_size_mb: null
-  download_rows_default: 5000
-languages:
-  ne: 5000

@@ -6,37 +6,32 @@ quality_tier: gold
 license: apache-2.0
 language: ne
 script: Devanagari
+
 split: train
-target_rows: 10000
+target_rows: 500
+
 column_mapping:
   noisy_text: input
   clean_text: output
-output: dataset/transformed/sft/gec/cfilt_ocr_correction.jsonl
+
+output: lemmatization/sentence_data/gec/cfilt_ocr_correction.jsonl
+
 export_templates:
   bert:
     format: sequence_pair
-    text_a: '{input}'
-    text_b: '{output}'
+    text_a: "{input}"
+    text_b: "{output}"
   t5:
-    task_prefix: 'ocr post-correction nepali: '
-    source_text: '{input}'
-    target_text: '{output}'
+    task_prefix: "ocr post-correction nepali: "
+    source_text: "{input}"
+    target_text: "{output}"
   gemma4:
     messages:
-    - role: user
-      content: 'कृपया तलको OCR त्रुटियुक्त नेपाली पाठलाई शुद्ध बनाउनुहोस्:
+      - role: "user"
+        content: "कृपया तलको OCR त्रुटियुक्त नेपाली पाठलाई शुद्ध बनाउनुहोस्:\n{input}"
+      - role: "model"
+        content: "{output}"
 
-        {input}'
-    - role: model
-      content: '{output}'
 validation:
-  min_devanagari_ratio: 0.7
+  min_devanagari_ratio: 0.70
   drop_duplicates: true
-status: verified
-modality: text
-size_stats:
-  max_rows: 10000
-  total_size_mb: null
-  download_rows_default: 10000
-languages:
-  ne: 10000

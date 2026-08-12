@@ -6,37 +6,32 @@ quality_tier: gold
 license: open
 language: ne
 script: Devanagari
+
 split: train
-target_rows: 10000
+target_rows: 500
+
 column_mapping:
   incorrect: input
   correct: output
-output: dataset/transformed/sft/gec/sumitaryal_gec_10k.jsonl
+
+output: lemmatization/sentence_data/gec/sumitaryal_gec_10k.jsonl
+
 export_templates:
   bert:
     format: sequence_pair
-    text_a: '{input}'
-    text_b: '{output}'
+    text_a: "{input}"
+    text_b: "{output}"
   t5:
-    task_prefix: 'correct nepali grammar: '
-    source_text: '{input}'
-    target_text: '{output}'
+    task_prefix: "correct nepali grammar: "
+    source_text: "{input}"
+    target_text: "{output}"
   gemma4:
     messages:
-    - role: user
-      content: 'तल दिइएको नेपाली वाक्यको व्याकरण सच्याउनुहोस्:
+      - role: "user"
+        content: "तल दिइएको नेपाली वाक्यको व्याकरण सच्याउनुहोस्:\n{input}"
+      - role: "model"
+        content: "{output}"
 
-        {input}'
-    - role: model
-      content: '{output}'
 validation:
-  min_devanagari_ratio: 0.7
+  min_devanagari_ratio: 0.70
   drop_duplicates: true
-status: verified
-modality: text
-size_stats:
-  max_rows: 10000
-  total_size_mb: null
-  download_rows_default: 10000
-languages:
-  ne: 10000
