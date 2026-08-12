@@ -1,0 +1,30 @@
+id: todo_github_12-Twelvve_poem_dataset
+name: 12-Twelvve/poem_dataset
+source_url: https://github.com/12-Twelvve/poem_dataset
+task: sft/nlp_tasks/stylometry_honorifics
+quality_tier: gold
+license: open
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  title: poem_title
+  poet: author
+  poem: text
+output: dataset/transformed/sft/nlp_tasks/nepali_poems_corpus.jsonl
+export_templates:
+  bert:
+    format: language_model_text
+    text: '{text}'
+  gemma4:
+    messages:
+    - role: user
+      content: '{author}को कविता सुनाउनुहोस्।'
+    - role: model
+      content: '{poem_title}
+
+
+        {text}'
+validation:
+  min_devanagari_ratio: 0.75
+  drop_duplicates: true

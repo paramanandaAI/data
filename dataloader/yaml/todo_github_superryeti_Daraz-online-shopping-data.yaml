@@ -1,0 +1,37 @@
+id: todo_github_superryeti_Daraz-online-shopping-data
+name: superryeti/Daraz-online-shopping-data-corpus
+source_url: https://github.com/superryeti/Daraz-online-shopping-data-corpus
+task: sft/domain/commerce
+quality_tier: gold
+license: open
+language: ne
+script: Devanagari
+
+split: train
+target_rows: 15000
+
+pipeline_hooks:
+  pre_process: "toolkit/transforms/hooks.py:clean_daraz_product"
+  post_process: "toolkit/transforms/hooks.py:enrich_multilingual_metadata"
+
+column_mapping:
+  title: product_title
+  description: description
+  price: price
+
+output: dataset/transformed/sft/domain/commerce/daraz_products_15k.jsonl
+
+export_templates:
+  bert:
+    format: item_classification
+    text: "{product_title}"
+  gemma4:
+    messages:
+      - role: "user"
+        content: "यस उत्पादनको विवरण दिनुहोस्:\n{product_title}"
+      - role: "model"
+        content: "विवरण: {description}\nमूल्य: {price}"
+
+validation:
+  min_devanagari_ratio: 0.60
+  drop_duplicates: true

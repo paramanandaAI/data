@@ -1,0 +1,39 @@
+id: huggingface_himalaya-ai_devanagari_ocr_graphemes
+name: himalaya-ai/devanagari_ocr_graphemes
+source_url: https://huggingface.co/datasets/himalaya-ai/devanagari_ocr_graphemes
+raw_file_path: _dump/dataset/raw/devanagari_ocr_graphemes/devanagari_ocr_graphemes.json
+task: multimodal/ocr
+quality_tier: gold
+license: cc-by-4.0
+language: ne
+script: Devanagari
+
+split: train
+target_rows: 57325
+
+citation: "Shubham Karampure et al. (2024), Devanagari Grapheme OCR Dataset"
+
+column_mapping:
+  images.0: image_path
+  messages.1.content: text
+
+output: dataset/transformed/multimodal/ocr/devanagari_ocr_graphemes.jsonl
+
+export_templates:
+  bert:
+    format: language_model_text
+    text: "{text}"
+  t5:
+    task_prefix: "ocr grapheme: "
+    source_text: "{image_path}"
+    target_text: "{text}"
+  gemma4:
+    messages:
+      - role: "user"
+        content: "<image>\nकृपया यस तस्बिरमा देखिएको देवनागरी वर्ण (grapheme) पहिचान गर्नुहोस्।"
+      - role: "model"
+        content: "{text}"
+
+validation:
+  min_devanagari_ratio: 0.70
+  drop_duplicates: false

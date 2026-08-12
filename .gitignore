@@ -1,0 +1,5 @@
+# Ignored large files (> 10 MB)
+/library_test/ocr/example.pdf
+/library_test/translit/nepali_roman_word.csv
+/synthetic_raw/learnings_from_semster/hindi-nepali-translation/iforgotsource.csv
+/synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/output.json

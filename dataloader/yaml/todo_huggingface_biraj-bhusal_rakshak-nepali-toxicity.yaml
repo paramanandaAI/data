@@ -1,0 +1,21 @@
+id: todo_huggingface_biraj-bhusal_rakshak-nepali-toxicity
+name: biraj-bhusal/rakshak-nepali-toxicity-final
+source_url: https://huggingface.co/datasets/biraj-bhusal/rakshak-nepali-toxicity-final
+task: eval/safety
+quality_tier: gold
+license: open
+language: ne
+split: test
+target_rows: 5000
+column_mapping:
+  comment: text
+  is_toxic: label
+output: dataset/transformed/eval/rakshak_toxicity_eval.jsonl
+export_templates:
+  bert:
+    format: safety_classification
+    text: '{text}'
+    label: '{label}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true

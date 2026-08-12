@@ -1,0 +1,36 @@
+id: huggingface_himalaya-ai_nepalipixel-synthetic-ocr-benchmark
+name: himalaya-ai/nepalipixel-synthetic-ocr-benchmark
+source_url: https://huggingface.co/datasets/himalaya-ai/nepalipixel-synthetic-ocr-benchmark
+task: multimodal/ocr
+quality_tier: gold
+license: mit
+language: ne
+script: Devanagari
+
+split: train
+target_rows: 5000
+
+column_mapping:
+  image_path: image_path
+  ground_truth_text: text
+
+output: dataset/transformed/multimodal/ocr/nepalipixel_ocr_benchmark.jsonl
+
+export_templates:
+  bert:
+    format: language_model_text
+    text: "{text}"
+  t5:
+    task_prefix: "ocr transcribe nepali image: "
+    source_text: "{image_path}"
+    target_text: "{text}"
+  gemma4:
+    messages:
+      - role: "user"
+        content: "कागजातको तस्बिरबाट नेपाली पाठ पढ्नुहोस् र निकाल्नुहोस्।"
+      - role: "model"
+        content: "{text}"
+
+validation:
+  min_devanagari_ratio: 0.70
+  drop_duplicates: true

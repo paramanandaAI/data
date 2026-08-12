@@ -1,0 +1,21 @@
+id: todo_github_ishworrsubedii_nepali_speech-to-text
+name: ishworrsubedii/nepali_speech-to-text_datasets
+source_url: https://github.com/ishworrsubedii/nepali_speech-to-text_datasets
+task: multimodal/asr
+quality_tier: gold
+license: mit
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  audio_file: audio_path
+  transcript: text
+output: dataset/transformed/multimodal/asr/ishworr_speech_5k.jsonl
+export_templates:
+  t5:
+    task_prefix: 'transcribe nepali speech: '
+    source_text: '{audio_path}'
+    target_text: '{text}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true

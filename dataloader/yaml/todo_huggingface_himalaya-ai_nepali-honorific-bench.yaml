@@ -1,0 +1,30 @@
+id: todo_huggingface_himalaya-ai_nepali-honorific-bench
+name: himalaya-ai/nepali-honorific-bench
+source_url: https://huggingface.co/datasets/himalaya-ai/nepali-honorific-bench
+task: sft/nlp_tasks/stylometry_honorifics
+quality_tier: gold
+license: mit
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  input: low_honorific
+  output: high_honorific
+  register: target_register
+output: dataset/transformed/sft/nlp_tasks/nepali_honorific_bench_5k.jsonl
+export_templates:
+  t5:
+    task_prefix: 'transfer honorific register: '
+    source_text: '{low_honorific}'
+    target_text: '{high_honorific}'
+  gemma4:
+    messages:
+    - role: user
+      content: 'यस वाक्यलाई उच्च आदरार्थी (हजुर/तपाईँ) शैलीमा रूपान्तरण गर्नुहोस्:
+
+        {low_honorific}'
+    - role: model
+      content: '{high_honorific}'
+validation:
+  min_devanagari_ratio: 0.75
+  drop_duplicates: true
