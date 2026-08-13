@@ -30,3 +30,17 @@ dataloader/train/word_agriculture_web/train_short_10000.csv
 # Keep sample dataset CSVs (< 5 MB)
 !/library_test/translit/nepali_roman_word_sample.csv
 !/synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/*.csv
+awesome_data/Nepali_data/eval/hf_benchmarks/Co-Reference-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/CoLA-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/Filling-Masks-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/MNLI-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/MRPC-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/NepaliDataClassifiers/
+awesome_data/Nepali_data/eval/hf_benchmarks/QADSM-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/QNLI-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/QQP-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/RTE-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/Sentiment-Analysis-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/STS-B-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/WinoGrande-Nepali/
+awesome_data/Nepali_data/eval/hf_benchmarks/XNLI-Nepali/
