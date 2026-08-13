@@ -1,0 +1,27 @@
+id: todo_huggingface_Basanta55_cc100-nepali-strictly-cleaned
+name: Basanta55/cc100-nepali-strictly-cleaned-devanagari-only
+source_url: https://huggingface.co/datasets/Basanta55/cc100-nepali-strictly-cleaned-devanagari-only
+task: pretrain/monolingual
+quality_tier: gold
+license: mit
+language: ne
+split: train
+target_rows: 50000
+column_mapping:
+  text: text
+output: dataset/transformed/pretrain/cc100_nepali_strictly_cleaned_50k.jsonl
+export_templates:
+  bert:
+    format: language_model_text
+    text: '{text}'
+validation:
+  min_devanagari_ratio: 0.85
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 50000
+  total_size_mb: null
+  download_rows_default: 50000
+languages:
+  ne: 50000

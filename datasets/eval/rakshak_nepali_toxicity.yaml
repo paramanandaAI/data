@@ -1,0 +1,39 @@
+id: rakshak_nepali_toxicity
+name: biraj-bhusal/rakshak-nepali-toxicity-final
+task: eval/safety
+status: verified
+quality_tier: gold
+modality: text
+license: open
+language: ne
+script: Devanagari
+source_url: https://huggingface.co/datasets/biraj-bhusal/rakshak-nepali-toxicity-final
+
+size_stats:
+  max_rows: 5000
+  total_size_mb: 0.77
+  download_rows_default: 5000
+
+languages:
+  ne: 5000
+
+column_mapping:
+  text: input
+  hate_speech: hate_speech
+  casteism: casteism
+  religous_incitement: religious_incitement
+  political_defamation: political_defamation
+  cyberbullying: cyberbullying
+  severity: severity
+
+export_templates:
+  t5:
+    task_prefix: "classify toxicity: "
+    source_text: "{text}"
+    target_text: "hate_speech: {hate_speech}, severity: {severity}"
+  gemma4:
+    messages:
+      - role: user
+        content: "तल दिइएको नेपाली पाठको द्वेषपूर्ण र विषाक्तता (toxicity/hate speech) विश्लेषण गर्नुहोस्:\n\n{text}"
+      - role: assistant
+        content: "द्वेषपूर्ण: {hate_speech}, श्रेणी: {severity}"

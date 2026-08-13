@@ -1,0 +1,15 @@
+id: local_reasoning_commonsense
+name: Nepali Commonsense Reasoning CoT Dataset
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: reasoning_cot
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 0.0
+samples:
+  sample_path: samples/sft/reasoning_cot/local_reasoning_commonsense_sample.jsonl

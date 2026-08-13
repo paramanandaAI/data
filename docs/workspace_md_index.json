@@ -1,0 +1,2006 @@
+[
+  {
+    "path": "baleval\\AGENT_PROTOCOL.md",
+    "size": 7621,
+    "lines": 191,
+    "title": "# Agent Protocol"
+  },
+  {
+    "path": "baleval\\METHODOLOGY.md",
+    "size": 7384,
+    "lines": 97,
+    "title": "# Human-Agent Collaborative (HITL) Evaluation & Dataset Development Methodology for Nepali NLP"
+  },
+  {
+    "path": "baleval\\README.md",
+    "size": 3275,
+    "lines": 60,
+    "title": "# BalEval Benchmark Suite (`baleval`)"
+  },
+  {
+    "path": "baleval\\_missing.md",
+    "size": 846,
+    "lines": 14,
+    "title": "# Planned Benchmark Expansion & Evaluation Backlog (`baleval/`)"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\README.md",
+    "size": 7034,
+    "lines": 150,
+    "title": "# Bal Krishna Bal — Evaluation & Experiments Catalog"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\TODO.md",
+    "size": 4030,
+    "lines": 108,
+    "title": "# TODO: bal_eval — Master Task List"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\argument_mining\\01_glara_legal_argument.md",
+    "size": 1047,
+    "lines": 36,
+    "title": "# G-LARA: Graph-Augmented Domain Adaptation for Nepali Legal Argument Mining"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\argument_mining\\02_enhanced_legal_argument.md",
+    "size": 1184,
+    "lines": 37,
+    "title": "# Enhanced Legal Argument Mining through Parameter-Efficient Fine-tuning of Large Language Models and Retrieval Augmentation on ECHR Corpus"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\argument_mining\\03_opinion_argumentation_news.md",
+    "size": 989,
+    "lines": 38,
+    "title": "# Towards Building Annotated Resources for Analyzing Opinions and Argumentation in News Editorials"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\argument_mining\\04_argumentation_structure.md",
+    "size": 981,
+    "lines": 37,
+    "title": "# Towards and Analysis of Argumentation Structure and the Strength of Arguments in News Editorials"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\balkbal_publications_2021_2026.md",
+    "size": 4545,
+    "lines": 32,
+    "title": "# Academic Publications & Research Bibliography — Prof. Dr. Bal Krishna Bal & Team (KU / ILPRL)"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\data_corpora\\01_strategies_corpus_development.md",
+    "size": 1445,
+    "lines": 43,
+    "title": "# Strategies for Corpus Development for Low-Resource Languages: Insights from Nepal"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\data_corpora\\02_pcdt.md",
+    "size": 1341,
+    "lines": 39,
+    "title": "# Parallel Corpus Development Toolkit (PCDT): A Web-Based Platform for Multilingual Parallel Data Creation"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\data_corpora\\03_query_optimization.md",
+    "size": 979,
+    "lines": 38,
+    "title": "# Impact of Join Order and Main Memory Buffer Size in Query Optimization with Materialization"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\hate_speech_toxicity\\01_devanagari_hate_speech.md",
+    "size": 1460,
+    "lines": 39,
+    "title": "# Natural Language Understanding of Devanagari Script Languages: Language Identification, Hate Speech and its Target Detection"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\hate_speech_toxicity\\02_profanity_detection.md",
+    "size": 1236,
+    "lines": 39,
+    "title": "# Profanity and Offensiveness Detection in Nepali Language Using Bi-directional LSTM Models"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\hate_speech_toxicity\\03_multimodal_hate_sentiment.md",
+    "size": 1445,
+    "lines": 40,
+    "title": "# Multimodal Hate and Sentiment Understanding in Low-Resource Text-Embedded Images for Online Safety and Digital Well-being"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\hci\\01_omnichannel_ecommerce.md",
+    "size": 867,
+    "lines": 37,
+    "title": "# Omnichannel Heuristics for E-commerce"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ilprl_projects.md",
+    "size": 5924,
+    "lines": 142,
+    "title": "# ILPRL Lab Research Projects"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\image_captioning\\01_nepali_image_captioning.md",
+    "size": 1062,
+    "lines": 39,
+    "title": "# CNN-Transformer based Encoder-Decoder Model for Nepali Image Captioning"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\image_captioning\\02_nepali_video_captioning.md",
+    "size": 987,
+    "lines": 37,
+    "title": "# Nepali Video Captioning using CNN-RNN Architecture"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\legal_nlp\\01_legal_qa_rag.md",
+    "size": 1231,
+    "lines": 40,
+    "title": "# Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\legal_nlp\\02_passport_qa.md",
+    "size": 884,
+    "lines": 36,
+    "title": "# Nepali Passport Question Answering: A Low-Resource Dataset for Public Service Applications"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\01_directional_asymmetry_legal_mt.md",
+    "size": 1058,
+    "lines": 36,
+    "title": "# Directional Asymmetry in Low-Resource Legal Machine Translation: A Nepali-English Case Study"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\02_nepali_tamang_parallel_corpus.md",
+    "size": 1459,
+    "lines": 39,
+    "title": "# NepTam: A Nepali-Tamang Parallel Corpus and Baseline Machine Translation Experiments"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\03_english_nepali_tamang.md",
+    "size": 1222,
+    "lines": 38,
+    "title": "# English–Nepali–Tamang: A Trilingual Parallel Corpus and Benchmark for Low-Resource Machine Translation"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\04_bidirectional_legal_mt.md",
+    "size": 1067,
+    "lines": 39,
+    "title": "# Bidirectional English-Nepali Machine Translation (MT) System for Legal Domain"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\05_comparative_smt_nmt.md",
+    "size": 1002,
+    "lines": 37,
+    "title": "# A Comparative Study of SMT and NMT: Case Study of English-Nepali Language Pair"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\06_tamang_nepali_mt.md",
+    "size": 1080,
+    "lines": 39,
+    "title": "# Efforts Towards Developing a Tamang Nepali Machine Translation System"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\machine_translation\\07_augmented_parallel_corpus.md",
+    "size": 950,
+    "lines": 38,
+    "title": "# Efforts in the Development of an Augmented English-Nepali Parallel Corpus"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\multilingual\\01_multilingual_mt_nepal.md",
+    "size": 1014,
+    "lines": 39,
+    "title": "# Enabling a Multilingual Teaching Learning Environment through Machine Translation Technologies - Current Status and Prospects of Nepal"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\multilingual\\02_roadmap_ai_nlp_low_resource.md",
+    "size": 991,
+    "lines": 36,
+    "title": "# Roadmap for the Development of Artificial Intelligence (AI) and Natural Language Processing (NLP)-based Technologies in Low-Resource Settings"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\multilingual\\03_language_technologies_preservation.md",
+    "size": 840,
+    "lines": 36,
+    "title": "# Role of Language Technologies in the Promotion and Preservation of Languages"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\multimodal\\01_chipsal_workshop_overview.md",
+    "size": 1248,
+    "lines": 39,
+    "title": "# Findings of the Second Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2026)"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\multimodal\\02_chipsal_2025_overview.md",
+    "size": 1218,
+    "lines": 39,
+    "title": "# A Brief Overview of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL)"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ner_pos\\01_ner_for_nepali.md",
+    "size": 888,
+    "lines": 37,
+    "title": "# Named Entity Recognition (NER) for Nepali"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ner_pos\\02_llm_ner_pos.md",
+    "size": 1408,
+    "lines": 40,
+    "title": "# Exploring the Potential of Large Language Models (LLMs) for Low-resource Languages: A Study on Named-Entity Recognition (NER) and Part-Of-Speech (POS) Tagging for Nepali Language"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ner_pos\\03_nepali_lemmatization.md",
+    "size": 1148,
+    "lines": 39,
+    "title": "# Nepali Lemmatization with Multilingual Transformers: Intrinsic and Extrinsic Evaluation in a Low-Resource Setting"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ner_pos\\04_encoding_nepal_languages.md",
+    "size": 991,
+    "lines": 37,
+    "title": "# Issues in Encoding the Languages of Nepal"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\ner_pos\\05_popularity_tracking_trend.md",
+    "size": 1143,
+    "lines": 38,
+    "title": "# How Popular or Unpopular Have Your Leaders Been - Popularity Tracking and Trend Analysis of Socio-Political Figures"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\opinion_analysis\\01_opinions_news_editorials.md",
+    "size": 927,
+    "lines": 36,
+    "title": "# Analyzing Opinions and Argumentation in News Editorials and Op-Eds"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\opinion_analysis\\02_how_positive_was_year.md",
+    "size": 895,
+    "lines": 38,
+    "title": "# Towards an Analysis of Opinions in News Editorials: How Positive was the year?"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\opinion_analysis\\03_who_speaks_for_whom.md",
+    "size": 892,
+    "lines": 37,
+    "title": "# Who Speaks for Whom? Towards Analyzing Opinions in News Editorials"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\opinion_analysis\\04_nlp_resources_nepali.md",
+    "size": 1107,
+    "lines": 39,
+    "title": "# Towards Building Advanced Natural Language Applications - An Overview of the Existing Primary Resources and Applications in Nepali"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\pretrained_models\\01_nepali_pretrained_transformers.md",
+    "size": 1129,
+    "lines": 40,
+    "title": "# Development of Pre-Trained Transformer-based Models for the Nepali Language"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\pretrained_models\\02_benchmarking_nlp_datasets.md",
+    "size": 1283,
+    "lines": 39,
+    "title": "# Consolidating and Developing Benchmarking Datasets for the Nepali Natural Language Understanding Tasks"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\pretrained_models\\03_nepali_encoder_transformers.md",
+    "size": 1224,
+    "lines": 39,
+    "title": "# Nepali Encoder Transformers: An Analysis of Auto Encoding Transformer Language Models for Nepali Text Classification"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\pretrained_models\\04_topic_classification_bert.md",
+    "size": 945,
+    "lines": 36,
+    "title": "# Benchmarking BERT-based Models for Sentence-Level Topic Classification in Nepali Language"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\security\\01_text_ddos_defense.md",
+    "size": 996,
+    "lines": 37,
+    "title": "# Towards a Content-based Defense against Text DDoS in 9-1-1 Emergency Systems"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\01_aspect_based_sentiment.md",
+    "size": 960,
+    "lines": 38,
+    "title": "# Aspect Based Sentiment Analysis of Nepali Text Using Support Vector Machine and Naive Bayes"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\02_abusive_sentiment_detection.md",
+    "size": 1033,
+    "lines": 37,
+    "title": "# Aspect Based Abusive Sentiment Detection in Nepali Social Media Texts"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\03_facts_vs_opinions.md",
+    "size": 1023,
+    "lines": 37,
+    "title": "# What Makes Facts Stand Out from Opinions? Distinguishing Facts from Opinions in News Media"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\04_analyzing_facts_opinions.md",
+    "size": 996,
+    "lines": 37,
+    "title": "# Analyzing Facts and Opinions in Nepali Subjective Texts"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\05_classifying_sentiments.md",
+    "size": 1002,
+    "lines": 37,
+    "title": "# Classifying Sentiments in Nepali Subjective Texts"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\06_bootstrap_sentiment.md",
+    "size": 1046,
+    "lines": 38,
+    "title": "# Detecting Sentiment in Nepali Texts: A Bootstrap Approach for Sentiment Analysis"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\sentiment_analysis\\07_named_entity_sentiment.md",
+    "size": 940,
+    "lines": 37,
+    "title": "# Named-Entity Based Sentiment Analysis of Nepali News Media Texts"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\01_nepconformer.md",
+    "size": 1207,
+    "lines": 39,
+    "title": "# NepConformer: A Conformer-Based Nepali Automatic Speech Recognition System"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\02_speech_personalization.md",
+    "size": 1062,
+    "lines": 36,
+    "title": "# Speech Personalization using Parameter Efficient Fine-Tuning for Nepali Speakers"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\03_improving_accuracy_asr.md",
+    "size": 1266,
+    "lines": 39,
+    "title": "# Improving on the Limitations of the ASR Model in Low-resourced Environments Using Parameter-Efficient Fine-Tuning"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\04_comprehensive_study_asr.md",
+    "size": 1103,
+    "lines": 38,
+    "title": "# A Comprehensive Study of the Current State-of-the-Art in Nepali Automatic Speech Recognition Systems"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\05_pronunciation_aware_tokenizer.md",
+    "size": 1165,
+    "lines": 39,
+    "title": "# Pronunciation-Aware Syllable Tokenizer for Nepali Automatic Speech Recognition System"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\06_active_learning_finetuning.md",
+    "size": 1212,
+    "lines": 39,
+    "title": "# Active Learning Approach for Fine-Tuning Pre-Trained ASR Model for a LowResourced Language: A Case Study of Nepali"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\07_end_to_end_asr.md",
+    "size": 981,
+    "lines": 39,
+    "title": "# An End-to-End Speech Recognition for the Nepali Language"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\08_nwacha_muna.md",
+    "size": 1394,
+    "lines": 39,
+    "title": "# Nwāchā Munā: A Devanagari Speech Corpus and Proximal Transfer Benchmark for Nepal Bhasha ASR"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\09_rbccl_low_resource_asr.md",
+    "size": 1208,
+    "lines": 39,
+    "title": "# Improving Accuracy of Low-resource ASR using Rule-Based Character Constituency Loss (RBCCL)"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\speech_asr\\10_large_vocabulary_asr.md",
+    "size": 1075,
+    "lines": 39,
+    "title": "# Large Vocabulary Continuous Speech Recognition for Nepali Language using CNN and Transformer"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\topic_modeling\\01_topic_modeling_nepali.md",
+    "size": 955,
+    "lines": 39,
+    "title": "# Predicting the Topic of Nepali Documents via Topic Modeling Using Latent Dirichlet Allocation"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\tts\\01_transformer_tts_nepali.md",
+    "size": 932,
+    "lines": 39,
+    "title": "# Transformer-based Nepali Text-to-Speech"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\tts\\02_natural_sounding_tts.md",
+    "size": 1201,
+    "lines": 38,
+    "title": "# Building a Natural Sounding Text-to-Speech System for the Nepali Language - Research and Development Challenges and Solutions"
+  },
+  {
+    "path": "baleval\\agentic_notes_bal_eval\\tts\\03_enhancing_tts_quality.md",
+    "size": 909,
+    "lines": 37,
+    "title": "# Enhancing the Quality of Nepali Text-to-Speech Systems"
+  },
+  {
+    "path": "baleval\\framework_spec.md",
+    "size": 2538,
+    "lines": 44,
+    "title": "# BalEval Framework Specification"
+  },
+  {
+    "path": "baleval\\ir_information_retrieval\\01_standard_benchmark_ir.md",
+    "size": 25260,
+    "lines": 411,
+    "title": "# Towards Building a Standard Benchmark for Low-Resource Nepali Information Retrieval"
+  },
+  {
+    "path": "baleval\\ir_information_retrieval\\TODO.md",
+    "size": 8806,
+    "lines": 218,
+    "title": "# TODO: Nepali IR Benchmark — Manual Tasks"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\awesome_projects.md",
+    "size": 7017,
+    "lines": 30,
+    "title": "## 😃 Awesome projects based on PaddleOCR"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\01_nepal_script_text_recognition.md",
+    "size": 1216,
+    "lines": 39,
+    "title": "# Nepal Script Text Recognition from Ancient Artifacts: Challenges and Opportunities"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\02_nepal_script_crnn.md",
+    "size": 1153,
+    "lines": 39,
+    "title": "# Nepal Script Text Recognition Using CRNN CTC Architecture"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\03_offline_handwritten_word.md",
+    "size": 954,
+    "lines": 37,
+    "title": "# Deep Learning Approach for Offline Nepali Handwritten Word Recognition"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\04_license_plate_recognition.md",
+    "size": 1094,
+    "lines": 38,
+    "title": "# An Approach to Enhance the Character Recognition Accuracy of Nepalese License Plates"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\05_tesseract_ocr_preprocessing.md",
+    "size": 1036,
+    "lines": 38,
+    "title": "# Improving the Recognition Accuracy of Tesseract-OCR Engine on Nepali Text Images via Preprocessing"
+  },
+  {
+    "path": "baleval\\ocr_handwriting\\balsirworks\\06_hybrid_ocr_recognition.md",
+    "size": 1009,
+    "lines": 37,
+    "title": "# Improving Nepali OCR Performance by Using Hybrid Recognition Approaches"
+  },
+  {
+    "path": "baleval\\paper_roadmap.md",
+    "size": 10313,
+    "lines": 158,
+    "title": "# Evaluation Framework for Low-Resource Indo-Aryan NLP: Probing Large Language Models Against Rule-Based Morphological Foundations"
+  },
+  {
+    "path": "baleval\\paper_tasks_balkbal.md",
+    "size": 4353,
+    "lines": 96,
+    "title": "# Dr. Bal Krishna Bal: Paper Tasks & Data Status"
+  },
+  {
+    "path": "baleval\\paper_tasks_prasain.md",
+    "size": 4682,
+    "lines": 111,
+    "title": "# Dr. Balaram Prasain: Paper Tasks & Data Status"
+  },
+  {
+    "path": "data\\README.md",
+    "size": 2535,
+    "lines": 52,
+    "title": "# Paramananda NLP — Data Repository & Literature Hub (`data`)"
+  },
+  {
+    "path": "data\\_missing.md",
+    "size": 799,
+    "lines": 14,
+    "title": "# Planned Structural Expansion & Backlog (`data/`)"
+  },
+  {
+    "path": "data\\docs\\bal_eval_framework.md",
+    "size": 2892,
+    "lines": 86,
+    "title": "# BalEval Framework"
+  },
+  {
+    "path": "data\\docs\\bibliography.md",
+    "size": 16086,
+    "lines": 249,
+    "title": "# From Nepali_data README"
+  },
+  {
+    "path": "data\\docs\\dataset_index.md",
+    "size": 80383,
+    "lines": 666,
+    "title": "# Nepali NLP & Speech Datasets Catalog on HuggingFace"
+  },
+  {
+    "path": "data\\docs\\dr_bal_krishna_bal_paper_tasks.md",
+    "size": 4353,
+    "lines": 96,
+    "title": "# Dr. Bal Krishna Bal: Paper Tasks & Data Status"
+  },
+  {
+    "path": "data\\docs\\dr_balaram_prasain_paper_tasks.md",
+    "size": 4682,
+    "lines": 111,
+    "title": "# Dr. Balaram Prasain: Paper Tasks & Data Status"
+  },
+  {
+    "path": "data\\docs\\gec_notes.md",
+    "size": 7204,
+    "lines": 83,
+    "title": "# Nepali Grammar Error Correction (GEC) & Proofreading: Research & Linguistic Guide"
+  },
+  {
+    "path": "data\\docs\\gemma4_asr_and_agentic_guide.md",
+    "size": 7397,
+    "lines": 203,
+    "title": "# 🚀 Comprehensive Technical Guide: Gemma 4 Model Family, Native ASR, and Agentic Workflows"
+  },
+  {
+    "path": "data\\docs\\learning_resources.md",
+    "size": 4146,
+    "lines": 74,
+    "title": "## 📖 9. Learning Resources & Demo Suggestions"
+  },
+  {
+    "path": "data\\docs\\local_datasets_index.md",
+    "size": 4219,
+    "lines": 55,
+    "title": "# Comprehensive Local & Research Dataset Index"
+  },
+  {
+    "path": "data\\docs\\newari_ir_and_speech_notes.md",
+    "size": 1587,
+    "lines": 28,
+    "title": "# Newari (Nepal Bhasa) Information Retrieval & Multimodal Speech Notes"
+  },
+  {
+    "path": "data\\docs\\research_method\\flickr8k.md",
+    "size": 290,
+    "lines": 15,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "data\\docs\\research_method\\huggingface_repos.md",
+    "size": 21323,
+    "lines": 490,
+    "title": "# Taxonomy of Hugging Face Gradio Ecosystem Repositories"
+  },
+  {
+    "path": "data\\docs\\research_method\\next_generation_linguist_workbench.md",
+    "size": 6178,
+    "lines": 87,
+    "title": "# Next-Generation Linguistic Annotation Toolkit: KISS Design Blueprint & Planning Document"
+  },
+  {
+    "path": "data\\docs\\research_method\\roboflow.md",
+    "size": 72089,
+    "lines": 1543,
+    "title": "# Taxonomy of Roboflow Classification Datasets"
+  },
+  {
+    "path": "data\\docs\\research_method\\roboflow_key_point.md",
+    "size": 15066,
+    "lines": 391,
+    "title": "# Taxonomy of Roboflow Keypoint Detection & Pose Estimation Datasets"
+  },
+  {
+    "path": "data\\docs\\research_method\\roboflow_semantic_segmentation.md",
+    "size": 60983,
+    "lines": 1532,
+    "title": "# Taxonomy of Roboflow Semantic Segmentation Datasets"
+  },
+  {
+    "path": "data\\docs\\research_roadmap.md",
+    "size": 31520,
+    "lines": 405,
+    "title": "# Innovative Nepali NLP & AI Research Ideas (Inspired by IIT Patna AI-NLP-ML Group & L3Cube-MahaNLP)"
+  },
+  {
+    "path": "data\\docs\\semester_learnings.md",
+    "size": 2070,
+    "lines": 29,
+    "title": "# Semester Project Artifacts & Data Index"
+  },
+  {
+    "path": "data\\docs\\toclean_scripts_code_and_synthetic_audit.md",
+    "size": 3834,
+    "lines": 40,
+    "title": "# Audit & Inventory: Synthetic Datasets & Code Utilities (`toclean_scripts` & `old_old`)"
+  },
+  {
+    "path": "data\\docs\\toxicity_dataset_review.md",
+    "size": 17159,
+    "lines": 218,
+    "title": "# nepali_aware_final.csv — Pair Review (vs noisy.csv)"
+  },
+  {
+    "path": "data\\samples\\hindi_nepali_translation\\README.md",
+    "size": 532,
+    "lines": 13,
+    "title": "# Sample: Parallel Hindi-Nepali Machine Translation"
+  },
+  {
+    "path": "data\\samples\\iforgotsource\\README.md",
+    "size": 570,
+    "lines": 11,
+    "title": "# Sample: Unverified Parallel Data (`iforgotsource.csv`)"
+  },
+  {
+    "path": "data\\samples\\wordnet_expansion\\README.md",
+    "size": 555,
+    "lines": 14,
+    "title": "# Sample: Nepali WordNet Synset Expansion"
+  },
+  {
+    "path": "demos\\README.md",
+    "size": 3917,
+    "lines": 71,
+    "title": "# Paramananda NLP — Demos & Prototypes (`demos`)"
+  },
+  {
+    "path": "demos\\_missing.md",
+    "size": 715,
+    "lines": 13,
+    "title": "# Planned Demos & Prototype Backlog (`demos/`)"
+  },
+  {
+    "path": "demos\\hf_spaces_catalog.md",
+    "size": 15299,
+    "lines": 487,
+    "title": "# Nepali NLP Projects & HuggingFace Spaces Catalog"
+  },
+  {
+    "path": "demos\\kiss\\README.md",
+    "size": 4811,
+    "lines": 101,
+    "title": "# 💋 KISS — Image Annotation Tool for LLM Work"
+  },
+  {
+    "path": "demos\\kiss\\demos\\mobile-template\\README.md",
+    "size": 2991,
+    "lines": 63,
+    "title": "# KISS Mobile Template"
+  },
+  {
+    "path": "demos\\kiss\\docs\\mobile-first-template-plan.md",
+    "size": 27360,
+    "lines": 280,
+    "title": "# KISS Mobile-First Template — Comprehensive Plan"
+  },
+  {
+    "path": "demos\\kiss\\public\\images\\README.md",
+    "size": 471,
+    "lines": 16,
+    "title": "# Image folder"
+  },
+  {
+    "path": "demos\\lemmatization\\hindi_nepali_word2word\\README.md",
+    "size": 7007,
+    "lines": 162,
+    "title": "# Hindi-Nepali WordNet Extension & Word2Word Modifications"
+  },
+  {
+    "path": "demos\\lemmatization\\hindi_nepali_word2word\\morfessor\\readme.md",
+    "size": 301,
+    "lines": 11,
+    "title": "#  indicnlp.v1.hi.model"
+  },
+  {
+    "path": "demos\\noising_denoising\\readme.md",
+    "size": 226,
+    "lines": 3,
+    "title": "# Noising & Denoising Experiments"
+  },
+  {
+    "path": "demos\\ocr\\demo_experiments\\LEARNINGS.md",
+    "size": 5409,
+    "lines": 106,
+    "title": "# Technical Learnings and Architectural Improvements from Cloned Repositories"
+  },
+  {
+    "path": "demos\\ocr\\demo_experiments\\README.md",
+    "size": 30456,
+    "lines": 407,
+    "title": "# Optical Character Recognition (OCR), Handwritten Text Recognition (HTR), and Epigraphic Document Analysis Repository Suite"
+  },
+  {
+    "path": "demos\\ocr\\findings.md",
+    "size": 597,
+    "lines": 9,
+    "title": "# OCR Quality and Datasets"
+  },
+  {
+    "path": "demos\\todo.md",
+    "size": 358,
+    "lines": 6,
+    "title": "# To-Do List"
+  },
+  {
+    "path": "demos\\vidannot\\README.md",
+    "size": 2975,
+    "lines": 73,
+    "title": "# vidannot — Nepali News Video Annotation"
+  },
+  {
+    "path": "demos\\vidannot\\vendor\\react-image-annotate\\README.md",
+    "size": 6609,
+    "lines": 101,
+    "title": "# React Image Annotate"
+  },
+  {
+    "path": "demos\\vidannot\\vendor\\react-image-annotate\\src\\LandingPage\\content.md",
+    "size": 3823,
+    "lines": 57,
+    "title": "# Features"
+  },
+  {
+    "path": "local_nogit\\data_1\\README.md",
+    "size": 22,
+    "lines": 2,
+    "title": "# data"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\_dump_files\\QUICKSTART.md",
+    "size": 2335,
+    "lines": 104,
+    "title": "# QUICKSTART.md — Get Started in 5 Minutes"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\_dump_files\\README.md",
+    "size": 18625,
+    "lines": 202,
+    "title": "# Low-Resource Nepali Linguistic Adaptation Platform"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\_dump_files\\ourlog.md",
+    "size": 170,
+    "lines": 20,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\_dump_files\\web_readme.md",
+    "size": 15010,
+    "lines": 86,
+    "title": "# Web Research — Low-Resource Nepali Linguistic Adaptation Platform"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\_dump_method2\\README.md",
+    "size": 430,
+    "lines": 11,
+    "title": "# Paramananda Workspace"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\Nepali-Flow-Colloquial\\ATTRIBUTION.md",
+    "size": 3577,
+    "lines": 80,
+    "title": "# Attribution & Data Sources"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\Nepali-Flow-Colloquial\\LICENSE.md",
+    "size": 2149,
+    "lines": 67,
+    "title": "# License"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\README.md",
+    "size": 3363,
+    "lines": 55,
+    "title": "# 00_online_sources"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\dataset_inventory.md",
+    "size": 12315,
+    "lines": 127,
+    "title": "# Nepali NLP Master Dataset Directory (`dataset.md`)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\iwn_data\\README.md",
+    "size": 1089,
+    "lines": 36,
+    "title": "# iwn_data — IndoWordNet (English-Hindi-Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\nepali_dataset_notes.md",
+    "size": 33767,
+    "lines": 479,
+    "title": "# Nepali-Datasets: Comprehensive NLP Resource Collection"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\nepali_synonyms\\README.md",
+    "size": 582,
+    "lines": 28,
+    "title": "# nepali_synonyms — Nepali Synonym Pairs"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\newari_retrieval\\README.md",
+    "size": 1773,
+    "lines": 46,
+    "title": "# newari_retrieval — Newari Language Information Retrieval Corpus"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\00_online_sources\\word2word\\README.md",
+    "size": 1034,
+    "lines": 40,
+    "title": "# word2word — Word-Level Translation Dictionaries"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\README.md",
+    "size": 565,
+    "lines": 12,
+    "title": "# 01_nlp — Standard NLP instruction tasks (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\README.md",
+    "size": 660,
+    "lines": 10,
+    "title": "# classification — Text Classification (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\cola\\README.md",
+    "size": 516,
+    "lines": 16,
+    "title": "# CoLA-Nepali — Nepali Corpus of Linguistic Acceptability"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\mnli\\README.md",
+    "size": 761,
+    "lines": 16,
+    "title": "# MNLI-Nepali — Multi-Genre Natural Language Inference"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\mrpc\\README.md",
+    "size": 526,
+    "lines": 16,
+    "title": "# MRPC-Nepali — Microsoft Research Paraphrase Corpus"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\nli\\README.md",
+    "size": 635,
+    "lines": 11,
+    "title": "# nli — प्राकृतिक भाषा अनुमान (NLI)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\qnli\\README.md",
+    "size": 524,
+    "lines": 16,
+    "title": "# QNLI-Nepali — Question Natural Language Inference"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\qqp\\README.md",
+    "size": 540,
+    "lines": 16,
+    "title": "# QQP-Nepali — Quora Question Pairs"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\rte\\README.md",
+    "size": 564,
+    "lines": 16,
+    "title": "# RTE-Nepali — Recognizing Textual Entailment"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\script_id\\README.md",
+    "size": 832,
+    "lines": 20,
+    "title": "# script_id — लिपि पहिचान (Script identification)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\sentiment\\README.md",
+    "size": 665,
+    "lines": 16,
+    "title": "# Sentiment-Analysis-Nepali"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\stsb\\README.md",
+    "size": 593,
+    "lines": 16,
+    "title": "# STS-B-Nepali — Semantic Textual Similarity Benchmark"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\topic\\README.md",
+    "size": 504,
+    "lines": 11,
+    "title": "# topic — विषय वर्गीकरण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\toxicity\\README.md",
+    "size": 540,
+    "lines": 12,
+    "title": "# toxicity — विषाक्त पाठ पहिचान"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\classification\\xnli\\README.md",
+    "size": 724,
+    "lines": 16,
+    "title": "# XNLI-Nepali — Cross-lingual Natural Language Inference"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\README.md",
+    "size": 468,
+    "lines": 11,
+    "title": "# generation — Text Generation (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\fill_mask\\README.md",
+    "size": 566,
+    "lines": 16,
+    "title": "# Filling-Masks-Nepali"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\paraphrase\\README.md",
+    "size": 576,
+    "lines": 12,
+    "title": "# paraphrase — अर्थ सहित पुनः लेखन (Paraphrase)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\question_generation\\README.md",
+    "size": 545,
+    "lines": 12,
+    "title": "# question_generation — प्रश्न निर्माण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\summarization\\README.md",
+    "size": 457,
+    "lines": 11,
+    "title": "# summarization — सारांशीकरण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\generation\\title_generation\\README.md",
+    "size": 402,
+    "lines": 11,
+    "title": "# title_generation — शीर्षक निर्माण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\qa\\README.md",
+    "size": 632,
+    "lines": 11,
+    "title": "# QA — Question Answering (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\qa\\adsm\\README.md",
+    "size": 728,
+    "lines": 16,
+    "title": "# QADSM-Nepali — Ad Search Relevance"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\qa\\closed_book_qa\\README.md",
+    "size": 510,
+    "lines": 11,
+    "title": "# closed_book_qa — सामान्य ज्ञान प्रश्नोत्तर"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\qa\\conversational_qa\\README.md",
+    "size": 548,
+    "lines": 11,
+    "title": "# conversational_qa — कुराकानीमा आधारित प्रश्नोत्तर"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\qa\\extractive_qa\\README.md",
+    "size": 652,
+    "lines": 13,
+    "title": "# extractive_qa — पाठबाट उत्तर निकाल्ने प्रश्नोत्तर"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\spellchecker\\README.md",
+    "size": 13292,
+    "lines": 303,
+    "title": "# spellchecker — Text Checker / Grammar Correction Research"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\token_tagging\\README.md",
+    "size": 411,
+    "lines": 8,
+    "title": "# token_tagging — Token-level tagging (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\token_tagging\\ner\\README.md",
+    "size": 518,
+    "lines": 11,
+    "title": "# ner — नामित इकाई पहिचान"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\token_tagging\\pos\\README.md",
+    "size": 429,
+    "lines": 10,
+    "title": "# pos — शब्द-वर्ग चिन्ह (Part of Speech)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\translation\\README.md",
+    "size": 529,
+    "lines": 13,
+    "title": "# translation — अनुवाद (Nepali ↔ English)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\translation\\en_to_ne\\README.md",
+    "size": 385,
+    "lines": 11,
+    "title": "# en_to_ne — अंग्रेजी → नेपाली अनुवाद"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\translation\\hi_ne\\README.md",
+    "size": 1460,
+    "lines": 47,
+    "title": "# hi_ne — Hindi → Nepali Translation"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\01_nlp\\translation\\ne_to_en\\README.md",
+    "size": 392,
+    "lines": 11,
+    "title": "# ne_to_en — नेपाली → अंग्रेजी अनुवाद"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\README.md",
+    "size": 820,
+    "lines": 14,
+    "title": "# 02_reasoning_cot — Chain-of-thought / Reasoning (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\arithmetic\\README.md",
+    "size": 589,
+    "lines": 14,
+    "title": "# arithmetic — अंकगणित तर्क"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\commonsense\\README.md",
+    "size": 436,
+    "lines": 12,
+    "title": "# commonsense — सामान्य बुद्धि तर्क"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\commonsense\\winogrande\\README.md",
+    "size": 670,
+    "lines": 16,
+    "title": "# WinoGrande-Nepali — Commonsense Reasoning"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\explanation\\README.md",
+    "size": 445,
+    "lines": 12,
+    "title": "# explanation — व्याख्या उत्पादन"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\02_reasoning_cot\\implicit\\README.md",
+    "size": 548,
+    "lines": 13,
+    "title": "# implicit — अन्तर्निहित तर्क (Implicit reasoning)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\03_eval_heldout\\README.md",
+    "size": 836,
+    "lines": 21,
+    "title": "# 03_eval_heldout — Held-out evaluation tasks (Nepali)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\03_eval_heldout\\newari_retrieval\\README.md",
+    "size": 900,
+    "lines": 39,
+    "title": "# newari_retrieval — Newari IR Evaluation Benchmark"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\04_templates\\README.md",
+    "size": 891,
+    "lines": 17,
+    "title": "# 04_templates — Reusable instruction templates"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\04_templates\\dataset_schema.md",
+    "size": 3405,
+    "lines": 135,
+    "title": "# Dataset Schema & Configuration"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\04_templates\\papers_list.md",
+    "size": 6502,
+    "lines": 130,
+    "title": "# Research Bibliography: Dr. Bal Krishna Bal & Dr. Balaram Prasain"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\04_templates\\review_notes.md",
+    "size": 77578,
+    "lines": 945,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\04_templates\\users_tasklist.md",
+    "size": 2359,
+    "lines": 93,
+    "title": "# User Task List"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\05_pretraining\\README.md",
+    "size": 1910,
+    "lines": 56,
+    "title": "# 05_pretraining — Continued Pretraining / Domain Adaptation"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\05_pretraining\\entity_lists\\README.md",
+    "size": 697,
+    "lines": 19,
+    "title": "# Nepali Entity Lists — Pretraining Data"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\06_retrieval\\README.md",
+    "size": 1754,
+    "lines": 65,
+    "title": "# 06_retrieval — Information Retrieval Tasks"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dataset_test\\README.md",
+    "size": 3916,
+    "lines": 94,
+    "title": "# dataset_test — Nepali Instruction-Tuning Dataset"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\README.md",
+    "size": 8416,
+    "lines": 147,
+    "title": "# Krishi Sewa (कृषि सेवा) — Gemma 4 Government HITL & Nepali Language Accessibility Engine"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\diseases\\rice_blast.md",
+    "size": 1277,
+    "lines": 12,
+    "title": "# धान ब्लास्ट (Rice Blast)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\diseases\\tomato_late_blight.md",
+    "size": 1043,
+    "lines": 11,
+    "title": "# गोलभेडा डढुवा (Tomato Late Blight)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\guides\\rice_cultivation.md",
+    "size": 882,
+    "lines": 5,
+    "title": "# धान खेती निर्देशिका (Rice Cultivation Guide)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_00002913bee0.md",
+    "size": 560,
+    "lines": 7,
+    "title": "# धान खेती प्रविधि (Paddy Cultivation Practices)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_0d9fc31e7465.md",
+    "size": 571,
+    "lines": 7,
+    "title": "# धान खेती प्रविधि (Paddy Cultivation Practices)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_15660af48a37.md",
+    "size": 276,
+    "lines": 1,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_5c5af7944ffe.md",
+    "size": 595,
+    "lines": 7,
+    "title": "# धान खेतीका लागि प्रविधि र रोग नियन्त्रण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_63598ffcd3c8.md",
+    "size": 616,
+    "lines": 5,
+    "title": "# धान खेती प्रविधि र रोग नियन्त्रण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_bc1942770b8c.md",
+    "size": 537,
+    "lines": 7,
+    "title": "# धान खेती प्रविधि (Paddy Cultivation Practices)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_c2e612d4e5f7.md",
+    "size": 486,
+    "lines": 6,
+    "title": "# धान खेतीका प्रविधि र रोग नियन्त्रण"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_d1132ed8ad40.md",
+    "size": 579,
+    "lines": 7,
+    "title": "# धान खेतीका लागि प्रविधिहरू"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_ebe56928d5c2.md",
+    "size": 580,
+    "lines": 7,
+    "title": "# धान खेतीका प्रविधिहरू (Paddy Cultivation Practices)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\doc_ed370f0bf508.md",
+    "size": 575,
+    "lines": 7,
+    "title": "# धान खेती प्रविधि (Paddy Cultivation Practices)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\hackathon\\dump\\database\\knowledge\\practices\\organic_fertilizer.md",
+    "size": 765,
+    "lines": 5,
+    "title": "# कम्पोस्ट र जैविक मल प्रबन्ध (Organic Fertilizer Management)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\_inspirations\\README.md",
+    "size": 11435,
+    "lines": 251,
+    "title": "# 🇳🇵 Nepali LLM Instruction Tuning Dataset Corpus"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\_inspirations\\gemma4_asr_and_agentic_guide.md",
+    "size": 7397,
+    "lines": 203,
+    "title": "# 🚀 Comprehensive Technical Guide: Gemma 4 Model Family, Native ASR, and Agentic Workflows"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\_inspirations\\ideas.md",
+    "size": 31115,
+    "lines": 405,
+    "title": "# Innovative Nepali NLP & AI Research Ideas (Inspired by IIT Patna AI-NLP-ML Group & L3Cube-MahaNLP)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\_inspirations\\others_data_compiled\\multimodel\\handwritten_ocr\\readme.md",
+    "size": 7739,
+    "lines": 67,
+    "title": "#  NHD: A Dataset for Nepali Handwriting Detection"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\_inspirations\\testofmyllm.md",
+    "size": 38502,
+    "lines": 1428,
+    "title": "## 1. Fundamental Sentence Structure (Word Order)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset.md",
+    "size": 12315,
+    "lines": 127,
+    "title": "# Nepali NLP Master Dataset Directory (`dataset.md`)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\Linguistics_and_Fieldwork\\index.md",
+    "size": 2998,
+    "lines": 35,
+    "title": "# Linguistics, Grammar & Fieldwork Benchmark Index"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\Multimodal\\index.md",
+    "size": 2714,
+    "lines": 39,
+    "title": "# Multimodal & Vision-Language Benchmark Index"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\NLG\\index.md",
+    "size": 2193,
+    "lines": 31,
+    "title": "# NLG (Natural Language Generation) Benchmark Index"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\NLU\\index.md",
+    "size": 6674,
+    "lines": 70,
+    "title": "# NLU (Natural Language Understanding) Benchmark Index"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\Opinion_Discourse_and_ICT\\index.md",
+    "size": 2908,
+    "lines": 33,
+    "title": "# Opinion Mining, Argumentation & ICT Benchmark Index"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\README.md",
+    "size": 4460,
+    "lines": 51,
+    "title": "# Exhaustive Nepali NLP & Computational Linguistics Benchmark Suite (Bal-Prasain Taxonomy)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\Speech\\index.md",
+    "size": 2582,
+    "lines": 34,
+    "title": "# Speech & Acoustics Benchmark Index (ASR & TTS)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\authors\\dr_balaram_prasain\\_01_working_2011_computational_analysis_nepali_morphology_phd\\morphologyworkspace\\readme.md",
+    "size": 644,
+    "lines": 18,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\dataset\\review.md",
+    "size": 10199,
+    "lines": 99,
+    "title": "# Systematic Literature Review & Citation Benchmark Index: Nepali Natural Language Processing"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\nepali_dataset.md",
+    "size": 33767,
+    "lines": 479,
+    "title": "# Nepali-Datasets: Comprehensive NLP Resource Collection"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\bal_eval_framework.md",
+    "size": 2892,
+    "lines": 86,
+    "title": "# BalEval Framework"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\dataset_schema.md",
+    "size": 3405,
+    "lines": 135,
+    "title": "# Dataset Schema & Configuration"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\dr_bal_krishna_bal_paper_tasks.md",
+    "size": 4353,
+    "lines": 96,
+    "title": "# Dr. Bal Krishna Bal: Paper Tasks & Data Status"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\dr_balaram_prasain_paper_tasks.md",
+    "size": 4682,
+    "lines": 111,
+    "title": "# Dr. Balaram Prasain: Paper Tasks & Data Status"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\papers_list.md",
+    "size": 6502,
+    "lines": 130,
+    "title": "# Research Bibliography: Dr. Bal Krishna Bal & Dr. Balaram Prasain"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\synthetic_data_generation_guide.md",
+    "size": 4565,
+    "lines": 165,
+    "title": "# Synthetic Data Generation Guide"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\users_tasklist.md",
+    "size": 2359,
+    "lines": 93,
+    "title": "# User Task List"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\obsidian\\writepaper.md",
+    "size": 17289,
+    "lines": 211,
+    "title": "# Can LLMs Convince NLP Researchers? A Case Study of Gemma with BalEval"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\python_workspace\\README.md",
+    "size": 1976,
+    "lines": 47,
+    "title": "# Python Workspace for Nepali NLP & LLM Benchmark Suite (`python_workspace`)"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\review.md",
+    "size": 77578,
+    "lines": 945,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\test_videos\\README.md",
+    "size": 6274,
+    "lines": 149,
+    "title": "# Nepali Music Video Annotation Dataset"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\Co-Reference-Nepali\\README.md",
+    "size": 467,
+    "lines": 26,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\CoLA-Nepali\\README.md",
+    "size": 598,
+    "lines": 27,
+    "title": "# Dataset Card for \"CoLA-Nepali\""
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\Filling-Masks-Nepali\\README.md",
+    "size": 292,
+    "lines": 17,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\MNLI-Nepali\\README.md",
+    "size": 645,
+    "lines": 29,
+    "title": "# Dataset Card for \"MNLI-Nepali\""
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\MRPC-Nepali\\README.md",
+    "size": 641,
+    "lines": 29,
+    "title": "# Dataset Card for \"MRPC-Nepali\""
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\NepaliDataClassifiers\\README.md",
+    "size": 1039,
+    "lines": 21,
+    "title": "# NepaliDataClassifiers"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\QADSM-Nepali\\README.md",
+    "size": 529,
+    "lines": 28,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\QNLI-Nepali\\README.md",
+    "size": 478,
+    "lines": 26,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\QQP-Nepali\\README.md",
+    "size": 479,
+    "lines": 26,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\RTE-Nepali\\README.md",
+    "size": 638,
+    "lines": 29,
+    "title": "# Dataset Card for \"RTE-Nepali\""
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\STS-B-Nepali\\README.md",
+    "size": 644,
+    "lines": 29,
+    "title": "# Dataset Card for \"STS-B-Nepali\""
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\Sentiment-Analysis-Nepali\\README.md",
+    "size": 443,
+    "lines": 24,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\WinoGrande-Nepali\\README.md",
+    "size": 515,
+    "lines": 28,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\data_1\\toclean_scripts\\priority_paramananda\\dump\\code_projects\\old\\workspace\\XNLI-Nepali\\README.md",
+    "size": 479,
+    "lines": 26,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\corpus\\README.md",
+    "size": 643,
+    "lines": 12,
+    "title": "# Clean Corpora Directory (`corpus/`)"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\dataset\\README.md",
+    "size": 390,
+    "lines": 8,
+    "title": "# Final Datasets Directory (`dataset/`)"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\evaluation\\human_eval_rubric.md",
+    "size": 1281,
+    "lines": 20,
+    "title": "# Human Evaluation Rubric for Nepali Text Denoising"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\README.md",
+    "size": 4843,
+    "lines": 102,
+    "title": "# 💋 KISS — Image Annotation Tool for LLM Work"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\demos\\mobile-template\\README.md",
+    "size": 2991,
+    "lines": 63,
+    "title": "# KISS Mobile Template"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\docs\\mobile-first-template-plan.md",
+    "size": 27360,
+    "lines": 280,
+    "title": "# KISS Mobile-First Template — Comprehensive Plan"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\public\\images\\README.md",
+    "size": 471,
+    "lines": 16,
+    "title": "# Image folder"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\flickr8k.md",
+    "size": 290,
+    "lines": 15,
+    "title": "NO TITLE"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\huggingface_repos.md",
+    "size": 21323,
+    "lines": 490,
+    "title": "# Taxonomy of Hugging Face Gradio Ecosystem Repositories"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\next_generation_linguist_workbench.md",
+    "size": 6178,
+    "lines": 87,
+    "title": "# Next-Generation Linguistic Annotation Toolkit: KISS Design Blueprint & Planning Document"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\roboflow.md",
+    "size": 72089,
+    "lines": 1543,
+    "title": "# Taxonomy of Roboflow Classification Datasets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\roboflow_key_point.md",
+    "size": 15066,
+    "lines": 391,
+    "title": "# Taxonomy of Roboflow Keypoint Detection & Pose Estimation Datasets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\research_method\\roboflow_semantic_segmentation.md",
+    "size": 60983,
+    "lines": 1532,
+    "title": "# Taxonomy of Roboflow Semantic Segmentation Datasets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\QRPay Pro v1.5.0 Nulled\\qrpaypro-app\\Agent\\qrpay-pro-agent-app-new-v1.5.0\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md",
+    "size": 336,
+    "lines": 5,
+    "title": "# Launch Screen Assets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\QRPay Pro v1.5.0 Nulled\\qrpaypro-app\\Merchant\\qrpay-pro-mechant-app-new-v1.5.0\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md",
+    "size": 336,
+    "lines": 5,
+    "title": "# Launch Screen Assets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\QRPay Pro v1.5.0 Nulled\\qrpaypro-app\\User\\qrpay-pro-user-app-new-v1.5.0\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md",
+    "size": 336,
+    "lines": 5,
+    "title": "# Launch Screen Assets"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\CONTRIBUTING.md",
+    "size": 1866,
+    "lines": 57,
+    "title": "# Contributing to YamlQL"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\README.md",
+    "size": 10183,
+    "lines": 320,
+    "title": "# YamlQL"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\api\\database.md",
+    "size": 6813,
+    "lines": 335,
+    "title": "# Database Class"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\api\\transformer.md",
+    "size": 6165,
+    "lines": 302,
+    "title": "# Transformer Class"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\api\\yamlql.md",
+    "size": 5501,
+    "lines": 261,
+    "title": "# YamlQL Class"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\commands\\ai.md",
+    "size": 5358,
+    "lines": 242,
+    "title": "# AI Query Command"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\commands\\discover.md",
+    "size": 6958,
+    "lines": 207,
+    "title": "# Discover Command"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\commands\\sql.md",
+    "size": 7608,
+    "lines": 288,
+    "title": "# SQL Query Command"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\concepts\\metadata-tables.md",
+    "size": 3030,
+    "lines": 99,
+    "title": "# Metadata Tables"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\concepts\\relationships.md",
+    "size": 7350,
+    "lines": 280,
+    "title": "# Relationships"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\concepts\\schema-transformation.md",
+    "size": 4079,
+    "lines": 107,
+    "title": "# Schema Transformation"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\contributing.md",
+    "size": 461,
+    "lines": 11,
+    "title": "## How to Contribute"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\getting-started\\configuration.md",
+    "size": 4738,
+    "lines": 157,
+    "title": "# Configuration Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\getting-started\\installation.md",
+    "size": 2654,
+    "lines": 114,
+    "title": "# Installation Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\getting-started\\quick-start.md",
+    "size": 6001,
+    "lines": 214,
+    "title": "# Quick Start Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\guides\\complex-yaml.md",
+    "size": 7760,
+    "lines": 391,
+    "title": "# Complex YAML Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\guides\\docker-compose.md",
+    "size": 7436,
+    "lines": 325,
+    "title": "# Docker Compose Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\guides\\kubernetes.md",
+    "size": 9615,
+    "lines": 452,
+    "title": "# Kubernetes Files Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\index.md",
+    "size": 2926,
+    "lines": 73,
+    "title": "# YamlQL"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\troubleshooting.md",
+    "size": 7096,
+    "lines": 289,
+    "title": "# Troubleshooting Guide"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\kiss\\third_party\\YamlQL\\docs\\why-yamlql.md",
+    "size": 19473,
+    "lines": 571,
+    "title": "# Why YamlQL?"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\noisingexample.md",
+    "size": 2997,
+    "lines": 32,
+    "title": "# Synthetic Noising Examples (Single Sentence Demo)"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\ourplan.md",
+    "size": 2731,
+    "lines": 38,
+    "title": "# Repository Extension Plan & Task Backlog"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\clean_corpora\\README.md",
+    "size": 352,
+    "lines": 8,
+    "title": "# Clean Corpora Directory"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\other_data\\README.md",
+    "size": 490,
+    "lines": 9,
+    "title": "# Other Data (Factual & External Domain Datasets)"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\raw\\README.md",
+    "size": 623,
+    "lines": 12,
+    "title": "# Raw Sources Directory"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\softwares\\nepali-datetime\\CONTRIBUTING.md",
+    "size": 1475,
+    "lines": 30,
+    "title": "# CONTRIBUTING"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\softwares\\nepali-datetime\\README.md",
+    "size": 2455,
+    "lines": 80,
+    "title": "# Nepali Datetime (Bikram Sambat Date & Nepal Time)"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\synthetic\\toxicity_data\\README.md",
+    "size": 2734,
+    "lines": 45,
+    "title": "# Synthetic Toxicity Data — Noising/Denoising Pipeline"
+  },
+  {
+    "path": "local_nogit\\noising_denoising1\\sources\\synthetic\\toxicity_data\\translation_review.md",
+    "size": 17159,
+    "lines": 218,
+    "title": "# nepali_aware_final.csv — Pair Review (vs noisy.csv)"
+  },
+  {
+    "path": "nepalinlplibrary\\README.md",
+    "size": 6733,
+    "lines": 142,
+    "title": "# Nepali NLP Library (`nepalinlplibrary`)"
+  },
+  {
+    "path": "nepalinlplibrary\\_missing.md",
+    "size": 892,
+    "lines": 15,
+    "title": "# Planned Module Expansion & Library Backlog (`nepalinlplibrary/`)"
+  },
+  {
+    "path": "nepalinlplibrary\\noising_denoising_toolkit\\PLAN.md",
+    "size": 16576,
+    "lines": 305,
+    "title": "# PLAN — Nepali Noising & Denoising Toolkit (`ne_noise`)"
+  },
+  {
+    "path": "nepalinlplibrary\\noising_denoising_toolkit\\README.md",
+    "size": 4948,
+    "lines": 133,
+    "title": "# ne_noise — Nepali Noising & Denoising Toolkit (Beta)"
+  },
+  {
+    "path": "nepalinlplibrary\\noising_denoising_toolkit\\ne_noise\\models\\README.md",
+    "size": 2395,
+    "lines": 78,
+    "title": "# Models — Pretrained Wrappers & Install Guide"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\acl_sig_taxonomy.md",
+    "size": 1913,
+    "lines": 44,
+    "title": "# ACL SIG Domain Taxonomy & Quality Filtering Specifications"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\agent_ideas.md",
+    "size": 986,
+    "lines": 21,
+    "title": "# Agent Ideas & Architectural Concepts"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\dictionary_spec.md",
+    "size": 1740,
+    "lines": 53,
+    "title": "# Low-Resource Nepali Dictionary Specifications"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\gemma4_asr_and_agentic_guide.md",
+    "size": 7397,
+    "lines": 203,
+    "title": "# 🚀 Comprehensive Technical Guide: Gemma 4 Model Family, Native ASR, and Agentic Workflows"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\guides\\language_data_rules.md",
+    "size": 1928,
+    "lines": 36,
+    "title": "# Language Data, Rules & Processing Pipelines Guide"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\guides\\linguistic_features.md",
+    "size": 2171,
+    "lines": 41,
+    "title": "# Linguistic Features Guide: Nepali & Indic NLP"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\guides\\modern_nlp_spacy_hf_ecosystem.md",
+    "size": 4386,
+    "lines": 59,
+    "title": "# Modern NLP Ecosystem & Feature Mapping Guide: spaCy & Hugging Face for Nepali"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\guides\\tokenization_segmentation.md",
+    "size": 1522,
+    "lines": 32,
+    "title": "# Tokenization & Text Segmentation Guide"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\guides\\vectors_similarity.md",
+    "size": 1152,
+    "lines": 24,
+    "title": "# Vectors, Embeddings & Semantic Similarity Guide"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\hf_models_catalog.md",
+    "size": 101056,
+    "lines": 748,
+    "title": "# Nepali NLP & Speech Models Catalog on HuggingFace"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\linguistic_findings.md",
+    "size": 1834,
+    "lines": 22,
+    "title": "# Linguistic & Empirical Findings"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\noising_denoising_architecture.md",
+    "size": 1997,
+    "lines": 46,
+    "title": "# Noising–Denoising Architecture Reference"
+  },
+  {
+    "path": "nepalinlplibrary\\references\\supervisor_ideas.md",
+    "size": 31115,
+    "lines": 405,
+    "title": "# Innovative Nepali NLP & AI Research Ideas (Inspired by IIT Patna AI-NLP-ML Group & L3Cube-MahaNLP)"
+  },
+  {
+    "path": "our_shared_notes\\README.md",
+    "size": 1472,
+    "lines": 22,
+    "title": "# Paramananda NLP — Shared Notes & Collaboration Hub (`our_shared_notes`)"
+  },
+  {
+    "path": "our_shared_notes\\dataset_submission_checklist.md",
+    "size": 1733,
+    "lines": 32,
+    "title": "# Dataset Submission & Verification Checklist"
+  },
+  {
+    "path": "our_shared_notes\\ecosystem_philosophy_and_architecture.md",
+    "size": 7845,
+    "lines": 110,
+    "title": "# Paramananda NLP — Ecosystem Philosophy & Separation of Concerns"
+  },
+  {
+    "path": "our_shared_notes\\master_6month_roadmap.md",
+    "size": 5171,
+    "lines": 65,
+    "title": "# Paramananda NLP — 6-Month Master Strategic Roadmap (2026-Q3 to 2027-Q1)"
+  },
+  {
+    "path": "our_shared_notes\\team_roles_matrix.md",
+    "size": 3981,
+    "lines": 61,
+    "title": "# Paramananda NLP — Team Squads & Collaboration Matrix (13+ Collaborators)"
+  },
+  {
+    "path": "readme.md",
+    "size": 8009,
+    "lines": 97,
+    "title": "# Paramananda NLP — Workspace & Architecture Philosophy"
+  },
+  {
+    "path": "submission_icon_2026\\README.md",
+    "size": 3018,
+    "lines": 54,
+    "title": "# ICON 2026 Conference Submission Workspace (`submission_icon_2026`)"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\data_repo_inventory.md",
+    "size": 8700,
+    "lines": 88,
+    "title": "# Data Repository Deep Inventory — `githubrepos/data/` (161 files, verified Aug 2026)"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\legacy_factcheck_and_instruction_tuning.md",
+    "size": 8089,
+    "lines": 87,
+    "title": "# Fact-Check: Legacy Collaborative Work & Instruction Tuning — What We Actually Have"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\paper_outline.md",
+    "size": 8621,
+    "lines": 99,
+    "title": "# Paper Outline — Nepali Text Noising & Denoising: A Multi-Model, Multi-Config Benchmark"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\research_findings.md",
+    "size": 10787,
+    "lines": 132,
+    "title": "# Research Findings — Nepali Text Noising & Denoising: Multi-Model Benchmark"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\sft_as_denoising_unified_plan.md",
+    "size": 9259,
+    "lines": 99,
+    "title": "# Unified Denoising Task Family — SFT-as-Denoising & Multimodal Correction Plan"
+  },
+  {
+    "path": "submission_icon_2026\\paper\\web_search_personas.md",
+    "size": 8216,
+    "lines": 77,
+    "title": "# 10-Angle Web Search Log (persona-perspective sweep, Aug 2026)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\01_sources\\README.md",
+    "size": 2005,
+    "lines": 47,
+    "title": "# Stage 1: Data Sources, Synthetic Agents & Online Benchmark Registries (`01_sources/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\02_compile\\README.md",
+    "size": 1958,
+    "lines": 32,
+    "title": "# Stage 2: Reactive Source Compilation & Metadata Registry (`02_compile/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\03_synthetic\\README.md",
+    "size": 1832,
+    "lines": 43,
+    "title": "# Stage 3: Compiled Unified Datasets (`03_synthetic/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\04_training\\README.md",
+    "size": 1939,
+    "lines": 31,
+    "title": "# Stage 4: Model Training, Fine-Tuning & Loss Functions (`04_training/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\05_eda_eval_vis\\README.md",
+    "size": 2040,
+    "lines": 34,
+    "title": "# Stage 5: EDA, Evaluation Suite & Visualization (`05_eda_eval_vis/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\06_inference_demo_human\\README.md",
+    "size": 1570,
+    "lines": 27,
+    "title": "# Stage 6: Inference, Interactive Demo & Human Annotation Tools (`06_inference_demo_human/`)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\README.md",
+    "size": 3718,
+    "lines": 82,
+    "title": "# Minimal End-to-End NLP & Denoising Pipeline"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline\\pipeline_dataset_plan.md",
+    "size": 10981,
+    "lines": 113,
+    "title": "# Pipeline Dataset Plan — Nepali Noising/Denoising (verified inventory, Aug 2026)"
+  },
+  {
+    "path": "submission_icon_2026\\pipeline_presnetation\\README.md",
+    "size": 3460,
+    "lines": 41,
+    "title": "# Pipeline Presentation — Slide Skeleton (\"Nepali Noising & Denoising: Multi-Model Benchmark\")"
+  },
+  {
+    "path": "submission_icon_2026\\todo.md",
+    "size": 2783,
+    "lines": 36,
+    "title": "# TODO — Nepali Noising/Denoising Paper Project (Aug 2026)"
+  }
+]

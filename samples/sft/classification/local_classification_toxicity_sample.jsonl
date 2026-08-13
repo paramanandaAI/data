@@ -1,0 +1,2 @@
+{"id": "cls/toxicity/train/000001", "instruction": "यो पाठ विषाक्त हो वा होइन?", "source": "तिमीले यो काम गर्न सक्दैनौ, बेकार मान्छे!", "target": "विषाक्त", "category": "toxicity", "lang": "ne"}
+{"id": "cls/toxicity/train/000002", "instruction": "के यो टिप्पणी अपमानजनक छ?", "source": "धन्यवाद, तपाईंको मद्दतको कदर गर्छु।", "target": "गैर-विषाक्त", "category": "toxicity", "lang": "ne"}

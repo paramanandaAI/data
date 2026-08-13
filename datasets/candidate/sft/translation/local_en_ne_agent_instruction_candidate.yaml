@@ -1,0 +1,21 @@
+id: local_en_ne_agent_instruction_candidate
+name: "English-Nepali Agent Instruction Translation JSONL"
+status: candidate
+quality_tier: raw
+modality: text
+language: "en, ne"
+script: Devanagari
+task: translation
+license: open
+
+languages:
+  en: 25000
+  ne: 25000
+
+size_stats:
+  max_rows: 50000
+  download_rows_default: 100
+  total_size_mb: 34.8
+
+samples:
+  sample_100rows: "samples/sft/translation/en_ne_instruction_100rows.jsonl"

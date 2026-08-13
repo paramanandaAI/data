@@ -1,0 +1,15 @@
+id: local_classification_script_id
+name: Devanagari Script Identification Dataset
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: classification
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 1.63
+samples:
+  sample_path: samples/sft/classification/local_classification_script_id_sample.jsonl

@@ -1,0 +1,40 @@
+id: todo_huggingface_ibibek_nepali_alpaca
+name: ibibek/nepali_alpaca
+source_url: https://huggingface.co/datasets/ibibek/nepali_alpaca
+task: sft/instruction
+quality_tier: gold
+license: cc-by-4.0
+language: ne
+split: train
+target_rows: 52000
+column_mapping:
+  instruction: instruction
+  input: input
+  output: output
+output: dataset/transformed/sft/instruction/nepali_alpaca_52k.jsonl
+export_templates:
+  t5:
+    task_prefix: 'instruction: '
+    source_text: '{instruction}
+
+      {input}'
+    target_text: '{output}'
+  gemma4:
+    messages:
+    - role: user
+      content: '{instruction}
+
+        {input}'
+    - role: model
+      content: '{output}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 52000
+  total_size_mb: null
+  download_rows_default: 52000
+languages:
+  ne: 52000

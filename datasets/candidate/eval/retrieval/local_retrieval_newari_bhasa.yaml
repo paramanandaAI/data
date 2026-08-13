@@ -1,0 +1,15 @@
+id: local_retrieval_newari_bhasa
+name: Nepal Bhasa (Newari) Passage Retrieval Benchmark
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: retrieval
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 0.01
+samples:
+  sample_path: samples/eval/retrieval/local_retrieval_newari_bhasa_sample.csv

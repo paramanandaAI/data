@@ -1,0 +1,2 @@
+{"id": "qa/closedbook/train/000001", "instruction": "सामान्य ज्ञानको प्रश्नको उत्तर दिनुहोस्।", "source": "नेपालको राष्ट्रिय पशु के हो?", "target": "गाई", "category": "closed_book_qa", "lang": "ne"}
+{"id": "qa/closedbook/train/000002", "instruction": "यो प्रश्नको उत्तर बताउनुहोस्।", "source": "नेपालमा कति प्रदेशहरू छन्?", "target": "सात", "category": "closed_book_qa", "lang": "ne"}

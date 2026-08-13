@@ -1,0 +1,15 @@
+id: local_qa_closed_book
+name: Nepali Closed-Book QA Benchmark
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: qa
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 0.0
+samples:
+  sample_path: samples/sft/qa/local_qa_closed_book_sample.jsonl

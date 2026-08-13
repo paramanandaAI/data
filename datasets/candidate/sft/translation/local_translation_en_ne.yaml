@@ -1,0 +1,15 @@
+id: local_translation_en_ne
+name: English to Nepali Translation Corpus
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: translation
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 0.55
+samples:
+  sample_path: samples/sft/translation/local_translation_en_ne_sample.jsonl

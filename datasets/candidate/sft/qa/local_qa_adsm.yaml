@@ -1,0 +1,15 @@
+id: local_qa_adsm
+name: Nepali ADSM Question Answering Dataset
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: qa
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 2.75
+samples:
+  sample_path: samples/sft/qa/local_qa_adsm_sample.jsonl

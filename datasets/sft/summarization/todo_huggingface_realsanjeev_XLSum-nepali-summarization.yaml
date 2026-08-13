@@ -1,0 +1,38 @@
+id: todo_huggingface_realsanjeev_XLSum-nepali-summarization
+name: realsanjeev/XLSum-nepali-summerization-dataset
+source_url: https://huggingface.co/datasets/realsanjeev/XLSum-nepali-summerization-dataset
+task: sft/summarization
+quality_tier: gold
+license: cc-by-nc-sa-4.0
+language: ne
+split: train
+target_rows: 10000
+column_mapping:
+  text: article
+  summary: summary
+output: dataset/transformed/sft/summarization/xlsum_nepali_10k.jsonl
+export_templates:
+  t5:
+    task_prefix: 'summarize: '
+    source_text: '{article}'
+    target_text: '{summary}'
+  gemma4:
+    messages:
+    - role: user
+      content: 'तलको समाचार लेखको मुख्य सारांश लेख्नुहोस्:
+
+
+        {article}'
+    - role: model
+      content: '{summary}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 10000
+  total_size_mb: null
+  download_rows_default: 10000
+languages:
+  ne: 10000

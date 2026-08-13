@@ -1,0 +1,15 @@
+id: local_classification_chhanda
+name: Nepali Chhanda Meter Classification Dataset
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: classification
+license: open
+size_stats:
+  max_rows: 10000
+  download_rows_default: 100
+  total_size_mb: 0.01
+samples:
+  sample_path: samples/sft/classification/local_classification_chhanda_sample.jsonl

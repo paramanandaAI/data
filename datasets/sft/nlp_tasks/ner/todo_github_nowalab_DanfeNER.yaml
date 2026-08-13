@@ -1,0 +1,29 @@
+id: todo_github_nowalab_DanfeNER
+name: nowalab/DanfeNER
+source_url: https://github.com/nowalab/DanfeNER
+task: sft/nlp_tasks/ner
+quality_tier: gold
+license: mit
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  tokens: tokens
+  ner_tags: ner_tags
+output: dataset/transformed/sft/nlp_tasks/danfe_ner_5k.jsonl
+export_templates:
+  bert:
+    format: token_classification
+    tokens: '{tokens}'
+    tags: '{ner_tags}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 5000
+  total_size_mb: null
+  download_rows_default: 5000
+languages:
+  ne: 5000

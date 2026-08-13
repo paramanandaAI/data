@@ -1,0 +1,34 @@
+id: acl_Sarawgi_Old_Nepali_Manuscripts_HTR
+name: Sarawgi/Old-Nepali-Manuscripts-HTR
+source_url: https://github.com/sarawgi-a/old-nepali-manuscripts-htr
+task: multimodal/ocr/handwritten
+quality_tier: gold
+license: cc-by-sa-4.0
+language: ne
+split: train
+target_rows: 5000
+column_mapping:
+  manuscript_image: image_path
+  transcription: text
+  script_variant: devanagari_archaic
+output: dataset/transformed/multimodal/ocr/old_nepali_manuscripts_htr.jsonl
+export_templates:
+  gemma4:
+    messages:
+    - role: user
+      content: '<image>
+
+        यस ऐतिहासिक नेपाली पाण्डुलिपिको अक्षरहरू आधुनिक देवनागरीमा उतार्नुहोस् (Transcribe):'
+    - role: model
+      content: '{text}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: image_text
+size_stats:
+  max_rows: 5000
+  total_size_mb: null
+  download_rows_default: 5000
+languages:
+  ne: 5000

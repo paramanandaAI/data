@@ -1,0 +1,2 @@
+{"id": "cls/topic/train/000001", "instruction": "यो समाचार कुन विषयसँग सम्बन्धित छ?", "source": "नेपालको राष्ट्रिय क्रिकेट टोलीले आज ऐतिहासिक जित हासिल गर्\u200dयो।", "target": "खेलकुद", "category": "topic", "lang": "ne"}
+{"id": "cls/topic/train/000002", "instruction": "पाठको विषय वर्ग चयन गर्नुहोस्।", "source": "सरकारले बजेट घटाउने निर्णय गरेको छ।", "target": "अर्थतन्त्र", "category": "topic", "lang": "ne"}

@@ -1,0 +1,42 @@
+id: todo_huggingface_ashokpoudel_English-Nepali-Translation
+name: ashokpoudel/English-Nepali-Translation-Instruction-Dataset
+source_url: https://huggingface.co/datasets/ashokpoudel/English-Nepali-Translation-Instruction-Dataset
+task: sft/translation
+quality_tier: gold
+license: cc-by-4.0
+language: ne
+split: train
+target_rows: 50000
+column_mapping:
+  english: source_en
+  nepali: target_ne
+output: dataset/transformed/sft/translation/ashokpoudel_en_ne_50k.jsonl
+export_templates:
+  bert:
+    format: translation_pair
+    source: '{source_en}'
+    target: '{target_ne}'
+  t5:
+    task_prefix: 'translate english to nepali: '
+    source_text: '{source_en}'
+    target_text: '{target_ne}'
+  gemma4:
+    messages:
+    - role: user
+      content: 'Translate the following English text to Nepali:
+
+        {source_en}'
+    - role: model
+      content: '{target_ne}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: todo
+modality: text
+size_stats:
+  max_rows: 50000
+  total_size_mb: null
+  download_rows_default: 50000
+languages:
+  ne: 50000
+  en: 50000

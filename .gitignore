@@ -1,7 +1,6 @@
 # Paramananda Data Repository .gitignore
-# Ignore large dataset files (> 25 MB) and raw training dumps
 
-# Large Data Extensions
+# Large Data Extensions (> 25 MB)
 *.tsv
 *.bin
 *.parquet
@@ -9,38 +8,22 @@
 *.zip
 *.tar.gz
 *.7z
+*.pdf
 
-# Training & Large Data Directories
-/dataloader/train/
-/hindi_nepali_test/src/
-/hindi_nepali_test/tgt/
+# Large Local Archive (Moved legacy raw outputs here)
+/old_old/
 
-# Explicit Large Dataset Files (> 25 MB)
-/library_test/translit/nepali_roman_word.csv
-/library_test/ocr/example.pdf
-/synthetic_raw/learnings_from_semster/hindi-nepali-translation/iforgotsource.csv
-/synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/output.json
+# Keep Samples directory explicitly tracked
+!/samples/
+!/samples/**
+!/scripts/
+!/scripts/**
+!/datasets/
+!/datasets/**
+!/docs/
+!/docs/**
 
-# Explicit Large Dataset Files (> 50 MB)
-dataloader/train/synthetic/balkbal/corpus_analysis/unigram_frequency.csv
-dataloader/train/synthetic/balkbal/corpus_analysis/user_annotation_v1.json
-dataloader/train/word_agriculture_web/train.tsv
-dataloader/train/word_agriculture_web/train_short_10000.csv
-
-# Keep sample dataset CSVs (< 5 MB)
-!/library_test/translit/nepali_roman_word_sample.csv
-!/synthetic_raw/learnings_from_semster/nepali_wordnet_expansion/*.csv
-awesome_data/Nepali_data/eval/hf_benchmarks/Co-Reference-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/CoLA-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/Filling-Masks-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/MNLI-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/MRPC-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/NepaliDataClassifiers/
-awesome_data/Nepali_data/eval/hf_benchmarks/QADSM-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/QNLI-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/QQP-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/RTE-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/Sentiment-Analysis-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/STS-B-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/WinoGrande-Nepali/
-awesome_data/Nepali_data/eval/hf_benchmarks/XNLI-Nepali/
+# Temporary and Python artifacts
+__pycache__/
+*.pyc
+.DS_Store

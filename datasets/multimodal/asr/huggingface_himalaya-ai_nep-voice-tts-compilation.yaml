@@ -1,0 +1,40 @@
+id: huggingface_himalaya-ai_nep-voice-tts-compilation
+name: himalaya-ai/nep-voice-tts-compilation
+source_url: https://huggingface.co/datasets/himalaya-ai/nep-voice-tts-compilation
+task: multimodal/asr
+quality_tier: gold
+license: cc-by-4.0
+language: ne
+script: Devanagari
+split: train
+target_rows: 10000
+column_mapping:
+  audio_url: audio_path
+  sentence: text
+  speaker_id: speaker
+output: dataset/transformed/multimodal/asr/nep_voice_compilation_10k.jsonl
+export_templates:
+  bert:
+    format: language_model_text
+    text: '{text}'
+  t5:
+    task_prefix: 'transcribe nepali speech: '
+    source_text: '{audio_path}'
+    target_text: '{text}'
+  gemma4:
+    messages:
+    - role: user
+      content: नेपाली बोलीको अडियो सुन्नुहोस् र लिखित पाठ निकाल्नुहोस्।
+    - role: model
+      content: '{text}'
+validation:
+  min_devanagari_ratio: 0.7
+  drop_duplicates: true
+status: verified
+modality: audio
+size_stats:
+  max_rows: 10000
+  total_size_mb: null
+  download_rows_default: 10000
+languages:
+  ne: 10000

@@ -1,0 +1,38 @@
+id: toxicity_denoising_v1
+name: "Nepali Social Media Toxicity 3-Stage Denoising Dataset"
+status: verified
+quality_tier: verified_human_reviewed
+modality: text
+language: ne
+script: Devanagari
+task: denoising
+license: cc-by-4.0
+source_url: "https://huggingface.co/datasets/biraj-bhusal/rakshak-nepali-toxicity-final"
+upstream_citation: "Biraj Bhusal et al. (2024). Rakshak: Toxic Content Benchmark. CC-BY-4.0."
+
+size_stats:
+  max_rows: 500
+  download_rows_default: 500
+  verified_rows: 500
+
+languages:
+  ne: 500
+
+pipeline_notes: |
+  3-stage pipeline: noisy -> devanagari_unaware -> nepali_aware_final.
+  Translation pipeline: Gemini 3.6 Flash (generation) -> DeepSeek v4 (audit) -> Gemini 3.6 Flash High (fixes).
+  Human error review documented in: data/docs/toxicity_dataset_review.md.
+
+export_templates:
+  t5:
+    task_prefix: "denoise nepali: "
+    source_text: "{noisy}"
+    target_text: "{nepali_aware_final}"
+
+validation:
+  min_devanagari_ratio: 0.80
+
+samples:
+  noisy: "samples/sft/denoising/toxicity_noisy_500rows.csv"
+  stage1_target: "samples/sft/denoising/toxicity_devanagari_unaware_500rows.csv"
+  stage2_target: "samples/sft/denoising/toxicity_nepali_aware_final_500rows.csv"

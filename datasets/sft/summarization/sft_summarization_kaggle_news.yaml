@@ -1,0 +1,36 @@
+id: sft_summarization_kaggle_news
+name: adhikarykishan/nepali-news-summary
+task: sft/summarization
+status: verified
+quality_tier: gold
+modality: text
+license: open
+language: ne
+script: Devanagari
+source_url: https://www.kaggle.com/datasets/adhikarykishan/nepali-news-summary
+
+size_stats:
+  max_rows: 15593
+  total_size_mb: 95.75
+  download_rows_default: 15593
+
+languages:
+  ne: 15593
+
+column_mapping:
+  article: input
+  summary: output
+
+output: data/awesome_data/Nepali_data/sft/summarization/nepali_news_summaries.csv
+
+export_templates:
+  t5:
+    task_prefix: "summarize Nepali news: "
+    source_text: "{article}"
+    target_text: "{summary}"
+  gemma4:
+    messages:
+      - role: user
+        content: "तल दिइएको नेपाली समाचारको मुख्य सारांश लेख्नुहोस्:\n\n{article}"
+      - role: assistant
+        content: "{summary}"

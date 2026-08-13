@@ -1,0 +1,18 @@
+id: rakshak_nepali_toxicity_candidate
+name: "Rakshak: Nepali Toxic Content Benchmark (Full 4,805 rows)"
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: denoising
+license: cc-by-4.0
+source_url: "https://huggingface.co/datasets/biraj-bhusal/rakshak-nepali-toxicity-final"
+upstream_citation: "Biraj Bhusal et al. (2024). Rakshak: Toxic Content Benchmark. CC-BY-4.0."
+
+size_stats:
+  max_rows: 4805
+  download_rows_default: 4805
+
+samples:
+  raw_csv: "samples/sft/denoising/rakshak_nepali_toxicity_full.csv"

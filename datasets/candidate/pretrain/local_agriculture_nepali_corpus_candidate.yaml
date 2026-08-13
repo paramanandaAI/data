@@ -1,0 +1,17 @@
+id: local_agriculture_nepali_corpus_candidate
+name: "Nepali Agriculture Domain Web Corpus (1.54 GB TSV)"
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: pretrain
+license: open
+
+size_stats:
+  max_rows: 100000
+  download_rows_default: 1000
+  total_size_mb: 1538.0
+
+samples:
+  sample_1000rows: "samples/pretrain/agriculture_1000rows.csv"

@@ -1,0 +1,17 @@
+id: local_unigram_frequency_candidate
+name: "Nepali Unigram Frequency Table (87.8 MB)"
+status: candidate
+quality_tier: raw
+modality: text
+language: ne
+script: Devanagari
+task: wordnet_expansion
+license: open
+
+size_stats:
+  max_rows: 1000000
+  download_rows_default: 1000
+  total_size_mb: 87.8
+
+samples:
+  sample_1000rows: "samples/wordnet_expansion/unigram_frequency_top1000.csv"

@@ -1,0 +1,36 @@
+id: eval_sentiment
+name: hf/sentiment-analysis-nepali
+task: eval/sentiment
+status: verified
+quality_tier: gold
+modality: text
+source_url: https://huggingface.co/datasets/IRIIS-RESEARCH/Sentiment-Analysis-Nepali
+license: open
+language: ne
+script: Devanagari
+
+size_stats:
+  max_rows: 81385
+  total_size_mb: 7.01
+  download_rows_default: 81385
+
+languages:
+  ne: 81385
+
+column_mapping:
+  sentences: input
+  sentiment: output
+
+output: data/awesome_data/Nepali_data/eval/hf_benchmarks/Sentiment-Analysis-Nepali/data/train-00000-of-00001.parquet
+
+export_templates:
+  t5:
+    task_prefix: "classify sentiment: "
+    source_text: "{sentences}"
+    target_text: "{sentiment}"
+  gemma4:
+    messages:
+      - role: user
+        content: "तल दिइएको नेपाली वाक्यको भाव विश्लेषण गर्नुहोस्:\n\n{sentences}"
+      - role: assistant
+        content: "{sentiment}"
